@@ -41,8 +41,6 @@ parser.add_argument('-i', '--input', type=valid_dir,
                     required=True, help='Input fasta files')
 parser.add_argument('-o', '--output', type=valid_dir, 
                     required=True, help='Direct output to this location')
-parser.add_argument('-s', '--script', type=str, choices=['annotate.sh'],
-                    help='Choose script')
 parser.add_argument('--manual', action="store_true", 
                     help='Enter container interactively')
 args = parser.parse_args()
@@ -73,7 +71,7 @@ if args.manual:
 
 else:
 
-    command = ["docker run -d -v %s:/lab/input -v %s:/lab/output %s /lab/bin/%s" %
-            (input_path, output_path, image, args.script)]
+    command = ["docker run -d -v %s:/lab/input -v %s:/lab/output %s /lab/bin/annotate.sh" %
+            (input_path, output_path, image)]
     result = subprocess.Popen(command, shell=True)
     print(command)
