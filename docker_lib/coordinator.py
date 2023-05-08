@@ -39,7 +39,7 @@ if not os.path.exists(logs):
 # Logging function
 def logfile(function, text):
     newline = '\n'
-    container = "Phage_order v0.0.1"
+    container = "PhageOrder v0.0.1"
     date_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     report = f"{newline}[{container}]\t[{date_time}]\t[{function}]\t[{text}]"
     with open(logs, 'a') as file:
