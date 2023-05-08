@@ -3,7 +3,7 @@ This python script (phage_order.py) will run a docker container to reorder and a
 
 ## Open source citation:
 ```
-Iszatt J.(2023).PhageOrder(v0.0.1)[Source code].Github:https://github.com/JoshuaIszatt/phage_order
+Iszatt J.(2023).PhageOrder(v0.0.1)[Source code].Github:https://github.com/JoshuaIszatt/PhageOrder
 ```
 
 ## Prerequisites
