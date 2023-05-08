@@ -57,6 +57,7 @@ print(
     ">>>",
     f"Did you know:",
     f"{random_prompt}",
+    ">>>",
     sep='\n'
     )
 

@@ -226,7 +226,7 @@ for file in files:
     
     # Beginning annotation:
     logfile("Process", f"Running annotation: {name}")
-    prokka_dir = f"{outdir}/{name}_1"
+    prokka_dir = f"{outdir}/{name}_raw"
     prokka_dir2 = f"{outdir}/{name}_reversed"
     prokka_dir3 = f"{outdir}/{name}_reordered"
     
