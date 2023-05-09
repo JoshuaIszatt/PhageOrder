@@ -8,16 +8,15 @@ Unordered genomes are very likely to lead people to beleive that genomes are les
 **As an example:** 
 
 The image below depicts three publicly available Pseudomonas genomes:
-![Unordered genomes](pseud_unordered.png)
+![Unordered genomes](example_images/pseud_unordered.png)
 
 This next image are the same three genomes, but reordered so they begin with the terminase subunits.
-![Ordered genomes](pseud_ordered.png)
+![Ordered genomes](example_images/pseud_ordered.png)
 
 Image details:
-> Pbunaviruses
-Kara mokiny 1: GenBank: OP314870.1
-Pseudomonas phage Chunk GenBank: MT119376.1
-GenBank: MN871454.1
+* Pseudomonas phage Kara-mokiny_1: GenBank: OP314870.1
+* Pseudomonas phage Chunk GenBank: MT119376.1
+* Pseudomonas phage Pa-A GenBank: MN871454.1
 
 **These images are not produced as part of this software... yet**
 
@@ -51,7 +50,7 @@ docker run -v <PATH TO INPUT DIRECTORY>:/lab/input -v <PATH TO OUTPUT DIRECTORY>
 * Reordered genome based on the small or large terminase subunit (hierarchy: small>large)
 * Annotations using prokka and the PHROGS database (see third party software below)
 * Proteins file produced using the PHROGs index directly from: https://phrogs.lmge.uca.fr/
-* Log file of exactly what was done to your genomes
+* Log file
 
 ## Third-party software
 | Software | Version | Description | Please cite |
