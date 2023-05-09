@@ -33,7 +33,7 @@ def valid_dir(dir_path):
     return dir_path
 
 # Parsing arguments
-image = 'iszatt/phageorder:0.0.1'
+image = 'iszatt/phageorder:0.0.2'
 parser = argparse.ArgumentParser(description=f"Reorder and annotate phage genomes. Joshua J Iszatt: https://github.com/JoshuaIszatt")
 
 # Input/output options

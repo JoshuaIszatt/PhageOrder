@@ -39,7 +39,7 @@ if not os.path.exists(logs):
 # Logging function
 def logfile(function, text):
     newline = '\n'
-    container = "PhageOrder v0.0.1"
+    container = "PhageOrder v0.0.2"
     date_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     report = f"{newline}[{container}]\t[{date_time}]\t[{function}]\t[{text}]"
     with open(logs, 'a') as file:
@@ -309,7 +309,7 @@ for file in files:
         ]]
     create_csv(csv_file, headers)
     
-    # Looping through features
+    # Looping through features for reordered genome
     for A in annotations:
         
         # Adding from tsv
@@ -342,5 +342,66 @@ for file in files:
             ]
         
         append_csv(csv_file, data)
-    logfile("Protein file creation", f"{name} complete")
+    logfile("Protein file (reordered) creation", f"{name} complete")
+        
+    ########### Going back to create proteins file from raw
+
+    # Obtaining features from genbank file
+    gbk = f"{prokka_dir}/{name}.gbk"
+    annotations = scan_records(gbk)
+        
+    # Reading data from TSV file
+    tsv_file = f"{prokka_dir}/{name}.tsv"
+    df = pd.read_csv(tsv_file, sep = '\t')
+    df = df.drop(df[df['ftype'] == 'gene'].index)
+    df = df.reset_index(drop=True)
+    
+    # Creating CSV
+    csv_file = f"{outdir}/raw_{name}_proteins.csv"
+    headers = [[
+        'locus_tag',
+        'length_bp',
+        'EC_number',
+        'product',
+        'start',
+        'end',
+        'category',
+        'strand'
+        ]]
+    create_csv(csv_file, headers)
+        
+    # Looping through features for reordered genome
+    for A in annotations:
+        
+        # Adding from tsv
+        for index, row in df.iterrows():
+            print(A.id)
+            if A.id == row['locus_tag']:
+                phrog = row['EC_number']
+                length = row['length_bp']
+                print(phrog, length, sep='\t')
+                break
+    
+        # Adding category from index
+        for index, row in df2.iterrows():
+            if phrog == row['#phrog']:
+                category = row['Category']
+                break
+            else:
+                category = None
+        
+        # Appending data
+        data = [
+                A.id,
+                length,
+                phrog,
+                A.product,
+                A.start,
+                A.end,
+                category,
+                A.strand
+            ]
+        
+        append_csv(csv_file, data)
+    logfile("Protein file (raw) creation", f"{name} complete")
 logfile("FINISH", f"END SCRIPT")     
