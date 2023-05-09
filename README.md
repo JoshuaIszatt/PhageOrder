@@ -1,9 +1,12 @@
 # PhageOrder v0.0.2
 The python script (phage_order.py) will run a docker container to reorder and annotate phage genomes.
 
-This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. However, assembly is random (more information on this elsewhere...) and reordering genomes is not such a trivial task. Especially when many genomes are compared to one another using visual metrics. Unordered genomes are very likely to lead people to beleive that genomes are less related than they actually are.
+This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. However, assembly is random (more information on this elsewhere...) and reordering genomes is not such a trivial task. Especially when many genomes are compared to one another using visual metrics. 
+
+Unordered genomes are very likely to lead people to beleive that genomes are less related than they actually are.
 
 **As an example:** 
+
 The image below depicts three publicly available Pseudomonas genomes:
 ![Unordered genomes](pseud_unordered.png)
 
