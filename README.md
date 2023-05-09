@@ -1,26 +1,47 @@
 # PhageOrder v0.0.2
-This python script (phage_order.py) will run a docker container to reorder and annotate phage genomes.
+The python script (phage_order.py) will run a docker container to reorder and annotate phage genomes.
 
-This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. Not very useful if you are comparing bacteriophages.
+This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. However, assembly is random (more information on this elsewhere...) and reordering genomes is not such a trivial task. Especially when many genomes are compared to one another using visual metrics. Unordered genomes are very likely to lead people to beleive that genomes are less related than they actually are.
+
+**As an example:** 
+The image below depicts three publicly available Pseudomonas genomes:
+![Unordered genomes](pseud_unordered.png)
+
+This next image are the same three genomes, but reordered so they begin with the terminase subunits.
+![Ordered genomes](pseud_ordered.png)
+
+Image details:
+> Pbunaviruses
+Kara mokiny 1: GenBank: OP314870.1
+Pseudomonas phage Chunk GenBank: MT119376.1
+GenBank: MN871454.1
+
+**These images are not produced as part of this software... yet**
 
 To increase the number of ordered phages in public repositories, and make comparisons easier, PhageOrder will reorder the genome based on the small terminase subunit if it can be found. If not it will use the large terminase subunit.
 
 If there is neither, or more than 1 of both, then the genome will be left alone.
 This container will not change your RAW files. 
 
-
 ## Open source citation:
 ```
 Iszatt J.(2023).PhageOrder(v0.0.2)[Source code].Github:https://github.com/JoshuaIszatt/PhageOrder
 ```
 
-## Prerequisites
+## Usage:
+
+**PRE-REQUISITES:**
 * Docker installation
 * Python
 
-## Usage
+Easy method (After cloning this repository or copying the phage_order.py script)
 ```sh
 python phage_order.py --input <INPUT DIR> --output <OUTPUT DIR>
+```
+
+Direct method (Does not require cloning this repo or copying the phage_order.py script)
+```sh
+docker run -v <PATH TO INPUT DIRECTORY>:/lab/input -v <PATH TO OUTPUT DIRECTORY>:/lab/output iszatt/phageorder:0.0.2 /lab/bin/annotate.sh
 ```
 
 ## Output
