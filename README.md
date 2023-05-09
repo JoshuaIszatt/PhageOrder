@@ -18,7 +18,7 @@ Image details:
 * Pseudomonas phage Chunk GenBank: MT119376.1
 * Pseudomonas phage Pa-A GenBank: MN871454.1
 
-**These images are not produced as part of this software... yet**
+**These images are not produced as part of this software**
 
 To increase the number of ordered phages in public repositories, and make comparisons easier, PhageOrder will reorder the genome based on the small terminase subunit if it can be found. If not it will use the large terminase subunit.
 
