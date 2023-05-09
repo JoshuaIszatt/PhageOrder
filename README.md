@@ -1,4 +1,4 @@
-# PhageOrder v0.0.1
+# PhageOrder v0.0.2
 This python script (phage_order.py) will run a docker container to reorder and annotate phage genomes.
 
 This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. Not very useful if you are comparing bacteriophages.
@@ -11,7 +11,7 @@ This container will not change your RAW files.
 
 ## Open source citation:
 ```
-Iszatt J.(2023).PhageOrder(v0.0.1)[Source code].Github:https://github.com/JoshuaIszatt/PhageOrder
+Iszatt J.(2023).PhageOrder(v0.0.2)[Source code].Github:https://github.com/JoshuaIszatt/PhageOrder
 ```
 
 ## Prerequisites
@@ -30,7 +30,7 @@ python phage_order.py --input <INPUT DIR> --output <OUTPUT DIR>
 * Log file of exactly what was done to your genomes
 
 ## Third-party software
-| Software | Version | Description | doi / link |
+| Software | Version | Description | Please cite |
 | -------- | -------- | -------- | -------- |
 | prokka | 1.14.6 | Annotation software designed by Torsten Seemann | https://doi.org/10.1093/bioinformatics/btu153 |
 | PHROGS database | - | Database of proteins organised into orthologous groups | https://academic.oup.com/nargab/article/3/3/lqab067/6342220 |
