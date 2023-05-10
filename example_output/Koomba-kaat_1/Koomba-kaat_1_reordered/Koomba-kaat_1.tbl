@@ -1,0 +1,1492 @@
+>Feature gnl|Prokka|Koomba-kaat_1_1
+1	414	gene
+			locus_tag	Koomba-kaat_1_00001
+1	414	CDS
+			EC_number	phrog_1063
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00001
+			product	terminase small subunit
+			protein_id	gnl|Prokka|Koomba-kaat_1_00001
+431	799	gene
+			locus_tag	Koomba-kaat_1_00002
+431	799	CDS
+			EC_number	phrog_9315
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00002
+			product	terminase large subunit
+			protein_id	gnl|Prokka|Koomba-kaat_1_00002
+1061	1228	gene
+			locus_tag	Koomba-kaat_1_00003
+1061	1228	CDS
+			EC_number	phrog_34048
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00003
+			product	terminase large subunit
+			protein_id	gnl|Prokka|Koomba-kaat_1_00003
+1468	1566	gene
+			locus_tag	Koomba-kaat_1_00004
+1468	1566	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00004
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00004
+1774	2967	gene
+			locus_tag	Koomba-kaat_1_00005
+1774	2967	CDS
+			EC_number	phrog_675
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00005
+			product	terminase large subunit
+			protein_id	gnl|Prokka|Koomba-kaat_1_00005
+3189	4109	gene
+			locus_tag	Koomba-kaat_1_00006
+3189	4109	CDS
+			EC_number	phrog_559
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00006
+			product	HNH endonuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00006
+4186	4347	gene
+			locus_tag	Koomba-kaat_1_00007
+4186	4347	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00007
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00007
+4363	5163	gene
+			locus_tag	Koomba-kaat_1_00008
+4363	5163	CDS
+			EC_number	phrog_1917
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00008
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00008
+5150	5326	gene
+			locus_tag	Koomba-kaat_1_00009
+5150	5326	CDS
+			EC_number	phrog_3863
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00009
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00009
+5319	5798	gene
+			locus_tag	Koomba-kaat_1_00010
+5319	5798	CDS
+			EC_number	phrog_1116
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00010
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00010
+5841	6554	gene
+			locus_tag	Koomba-kaat_1_00011
+5841	6554	CDS
+			EC_number	phrog_3094
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00011
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00011
+6814	7173	gene
+			locus_tag	Koomba-kaat_1_00012
+6814	7173	CDS
+			EC_number	phrog_3937
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00012
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00012
+7179	7544	gene
+			locus_tag	Koomba-kaat_1_00013
+7179	7544	CDS
+			EC_number	phrog_1108
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00013
+			product	portal protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00013
+7549	9234	gene
+			locus_tag	Koomba-kaat_1_00014
+7549	9234	CDS
+			EC_number	phrog_15361
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00014
+			product	portal protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00014
+9402	10175	gene
+			locus_tag	Koomba-kaat_1_00015
+9402	10175	CDS
+			EC_number	phrog_1028
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00015
+			product	head maturation protease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00015
+10189	11139	gene
+			locus_tag	Koomba-kaat_1_00016
+10189	11139	CDS
+			EC_number	phrog_1133
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00016
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00016
+11222	12613	gene
+			locus_tag	Koomba-kaat_1_00017
+11222	12613	CDS
+			EC_number	phrog_752
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00017
+			product	major head protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00017
+12717	12950	gene
+			locus_tag	Koomba-kaat_1_00018
+12717	12950	CDS
+			EC_number	phrog_1205
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00018
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00018
+12960	13868	gene
+			locus_tag	Koomba-kaat_1_00019
+12960	13868	CDS
+			EC_number	phrog_772
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00019
+			product	tail fiber protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00019
+13886	14761	gene
+			locus_tag	Koomba-kaat_1_00020
+13886	14761	CDS
+			EC_number	phrog_1004
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00020
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00020
+14761	15381	gene
+			locus_tag	Koomba-kaat_1_00021
+14761	15381	CDS
+			EC_number	phrog_1127
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00021
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00021
+15400	16236	gene
+			locus_tag	Koomba-kaat_1_00022
+15400	16236	CDS
+			EC_number	phrog_1000
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00022
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00022
+16236	16442	gene
+			locus_tag	Koomba-kaat_1_00023
+16236	16442	CDS
+			EC_number	phrog_1151
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00023
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00023
+16465	18225	gene
+			locus_tag	Koomba-kaat_1_00024
+16465	18225	CDS
+			EC_number	phrog_279
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00024
+			product	tail sheath
+			protein_id	gnl|Prokka|Koomba-kaat_1_00024
+18288	18647	gene
+			locus_tag	Koomba-kaat_1_00025
+18288	18647	CDS
+			EC_number	phrog_985
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00025
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00025
+19682	20668	gene
+			locus_tag	Koomba-kaat_1_00026
+19682	20668	CDS
+			EC_number	phrog_7140
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00026
+			product	intron encoded nuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00026
+20716	20859	gene
+			locus_tag	Koomba-kaat_1_00027
+20716	20859	CDS
+			EC_number	phrog_2701
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00027
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00027
+20898	21347	gene
+			locus_tag	Koomba-kaat_1_00028
+20898	21347	CDS
+			EC_number	phrog_1905
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00028
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00028
+21404	21712	gene
+			locus_tag	Koomba-kaat_1_00029
+21404	21712	CDS
+			EC_number	phrog_2754
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00029
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00029
+21812	22228	gene
+			locus_tag	Koomba-kaat_1_00030
+21812	22228	CDS
+			EC_number	phrog_1038
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00030
+			product	tail assembly chaperone
+			protein_id	gnl|Prokka|Koomba-kaat_1_00030
+22335	22778	gene
+			locus_tag	Koomba-kaat_1_00031
+22335	22778	CDS
+			EC_number	phrog_1316
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00031
+			product	RNA polymerase beta subunit
+			protein_id	gnl|Prokka|Koomba-kaat_1_00031
+22832	25825	gene
+			locus_tag	Koomba-kaat_1_00032
+22832	25825	CDS
+			EC_number	phrog_1047
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00032
+			product	tail associated lysin
+			protein_id	gnl|Prokka|Koomba-kaat_1_00032
+26268	27137	gene
+			locus_tag	Koomba-kaat_1_00033
+26268	27137	CDS
+			EC_number	phrog_10341
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00033
+			product	endolysin
+			protein_id	gnl|Prokka|Koomba-kaat_1_00033
+27196	28020	gene
+			locus_tag	Koomba-kaat_1_00034
+27196	28020	CDS
+			EC_number	phrog_8949
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00034
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00034
+28072	30504	gene
+			locus_tag	Koomba-kaat_1_00035
+28072	30504	CDS
+			EC_number	phrog_1015
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00035
+			product	tail protein with lysin activity
+			protein_id	gnl|Prokka|Koomba-kaat_1_00035
+30510	31400	gene
+			locus_tag	Koomba-kaat_1_00036
+30510	31400	CDS
+			EC_number	phrog_2677
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00036
+			product	tail protein with lysin activity
+			protein_id	gnl|Prokka|Koomba-kaat_1_00036
+31394	33850	gene
+			locus_tag	Koomba-kaat_1_00037
+31394	33850	CDS
+			EC_number	phrog_2204
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00037
+			product	glycerophosphoryl diester phosphodiesterase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00037
+33962	34813	gene
+			locus_tag	Koomba-kaat_1_00038
+33962	34813	CDS
+			EC_number	phrog_1011
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00038
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00038
+34813	35334	gene
+			locus_tag	Koomba-kaat_1_00039
+34813	35334	CDS
+			EC_number	phrog_1073
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00039
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00039
+35334	36038	gene
+			locus_tag	Koomba-kaat_1_00040
+35334	36038	CDS
+			EC_number	phrog_975
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00040
+			product	baseplate protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00040
+36053	37099	gene
+			locus_tag	Koomba-kaat_1_00041
+36053	37099	CDS
+			EC_number	phrog_6
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00041
+			product	baseplate protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00041
+37110	39812	gene
+			locus_tag	Koomba-kaat_1_00042
+37110	39812	CDS
+			EC_number	phrog_2386
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00042
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00042
+39916	40437	gene
+			locus_tag	Koomba-kaat_1_00043
+39916	40437	CDS
+			EC_number	phrog_1394
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00043
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00043
+40457	43915	gene
+			locus_tag	Koomba-kaat_1_00044
+40457	43915	CDS
+			EC_number	phrog_877
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00044
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00044
+43967	44137	gene
+			locus_tag	Koomba-kaat_1_00045
+43967	44137	CDS
+			EC_number	phrog_1074
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00045
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00045
+44127	46040	gene
+			locus_tag	Koomba-kaat_1_00046
+44127	46040	CDS
+			EC_number	phrog_2665
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00046
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00046
+46056	46412	gene
+			locus_tag	Koomba-kaat_1_00047
+46056	46412	CDS
+			EC_number	phrog_2671
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00047
+			product	tail fiber protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00047
+46418	47782	gene
+			locus_tag	Koomba-kaat_1_00048
+46418	47782	CDS
+			EC_number	phrog_2691
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00048
+			product	tail fiber protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00048
+47868	48323	gene
+			locus_tag	Koomba-kaat_1_00049
+47868	48323	CDS
+			EC_number	phrog_14619
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00049
+			product	DNA helicase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00049
+48553	49866	gene
+			locus_tag	Koomba-kaat_1_00050
+48553	49866	CDS
+			EC_number	phrog_9690
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00050
+			product	DNA helicase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00050
+49876	51462	gene
+			locus_tag	Koomba-kaat_1_00051
+49876	51462	CDS
+			EC_number	phrog_1098
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00051
+			product	HTH DNA binding protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00051
+51455	52894	gene
+			locus_tag	Koomba-kaat_1_00052
+51455	52894	CDS
+			EC_number	phrog_19
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00052
+			product	DnaB-like replicative helicase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00052
+52894	53151	gene
+			locus_tag	Koomba-kaat_1_00053
+52894	53151	CDS
+			EC_number	phrog_11461
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00053
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00053
+53221	53466	gene
+			locus_tag	Koomba-kaat_1_00054
+53221	53466	CDS
+			EC_number	phrog_12198
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00054
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00054
+53476	53586	gene
+			locus_tag	Koomba-kaat_1_00055
+53476	53586	CDS
+			EC_number	phrog_6025
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00055
+			product	DNA methyltransferase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00055
+53720	54196	gene
+			locus_tag	Koomba-kaat_1_00056
+53720	54196	CDS
+			EC_number	phrog_67
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00056
+			product	DNA methyltransferase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00056
+54165	54413	gene
+			locus_tag	Koomba-kaat_1_00057
+54165	54413	CDS
+			EC_number	phrog_9725
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00057
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00057
+54413	55102	gene
+			locus_tag	Koomba-kaat_1_00058
+54413	55102	CDS
+			EC_number	phrog_67
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00058
+			product	DNA methyltransferase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00058
+55172	56203	gene
+			locus_tag	Koomba-kaat_1_00059
+55172	56203	CDS
+			EC_number	phrog_100
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00059
+			product	SbcD-like subunit of palindrome specific endonuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00059
+56205	56471	gene
+			locus_tag	Koomba-kaat_1_00060
+56205	56471	CDS
+			EC_number	phrog_2773
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00060
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00060
+56464	58398	gene
+			locus_tag	Koomba-kaat_1_00061
+56464	58398	CDS
+			EC_number	phrog_77
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00061
+			product	SbcC-like subunit of palindrome specific endonuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00061
+58382	58975	gene
+			locus_tag	Koomba-kaat_1_00062
+58382	58975	CDS
+			EC_number	phrog_1070
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00062
+			product	anti-sigma factor
+			protein_id	gnl|Prokka|Koomba-kaat_1_00062
+58989	60065	gene
+			locus_tag	Koomba-kaat_1_00063
+58989	60065	CDS
+			EC_number	phrog_47
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00063
+			product	DNA primase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00063
+60143	60451	gene
+			locus_tag	Koomba-kaat_1_00064
+60143	60451	CDS
+			EC_number	phrog_1291
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00064
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00064
+60451	60912	gene
+			locus_tag	Koomba-kaat_1_00065
+60451	60912	CDS
+			EC_number	phrog_1095
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00065
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00065
+60902	61510	gene
+			locus_tag	Koomba-kaat_1_00066
+60902	61510	CDS
+			EC_number	phrog_244
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00066
+			product	RusA-like Holliday junction resolvase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00066
+61525	62862	gene
+			locus_tag	Koomba-kaat_1_00067
+61525	62862	CDS
+			EC_number	phrog_86
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00067
+			product	ribonucleoside diphosphate reductase small subunit
+			protein_id	gnl|Prokka|Koomba-kaat_1_00067
+62878	65529	gene
+			locus_tag	Koomba-kaat_1_00068
+62878	65529	CDS
+			EC_number	phrog_12229
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00068
+			product	ribonucleotide reductase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00068
+65542	65868	gene
+			locus_tag	Koomba-kaat_1_00069
+65542	65868	CDS
+			EC_number	phrog_2797
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00069
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00069
+65852	66172	gene
+			locus_tag	Koomba-kaat_1_00070
+65852	66172	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00070
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00070
+66380	66982	gene
+			locus_tag	Koomba-kaat_1_00071
+66380	66982	CDS
+			EC_number	phrog_1054
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00071
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00071
+66991	67293	gene
+			locus_tag	Koomba-kaat_1_00072
+66991	67293	CDS
+			EC_number	phrog_379
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00072
+			product	DNA binding protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00072
+67370	71119	gene
+			locus_tag	Koomba-kaat_1_00073
+67370	71119	CDS
+			EC_number	phrog_4008
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00073
+			product	DNA polymerase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00073
+71362	72006	gene
+			locus_tag	Koomba-kaat_1_00074
+71362	72006	CDS
+			EC_number	phrog_2081
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00074
+			product	HNH endonuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00074
+72230	72886	gene
+			locus_tag	Koomba-kaat_1_00075
+72230	72886	CDS
+			EC_number	phrog_5995
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00075
+			product	DNA polymerase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00075
+72911	73393	gene
+			locus_tag	Koomba-kaat_1_00076
+72911	73393	CDS
+			EC_number	phrog_1069
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00076
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00076
+73409	73777	gene
+			locus_tag	Koomba-kaat_1_00077
+73409	73777	CDS
+			EC_number	phrog_24838
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00077
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00077
+73859	75028	gene
+			locus_tag	Koomba-kaat_1_00078
+73859	75028	CDS
+			EC_number	phrog_2672
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00078
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00078
+75091	75324	gene
+			locus_tag	Koomba-kaat_1_00079
+75091	75324	CDS
+			EC_number	phrog_8290
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00079
+			product	RecA or Sak4, length ?
+			protein_id	gnl|Prokka|Koomba-kaat_1_00079
+75558	76583	gene
+			locus_tag	Koomba-kaat_1_00080
+75558	76583	CDS
+			EC_number	phrog_97
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00080
+			product	UvsX-like recombinase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00080
+76576	76929	gene
+			locus_tag	Koomba-kaat_1_00081
+76576	76929	CDS
+			EC_number	phrog_1089
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00081
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00081
+76916	77575	gene
+			locus_tag	Koomba-kaat_1_00082
+76916	77575	CDS
+			EC_number	phrog_1025
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00082
+			product	RNA polymerase sigma factor
+			protein_id	gnl|Prokka|Koomba-kaat_1_00082
+77562	78311	gene
+			locus_tag	Koomba-kaat_1_00083
+77562	78311	CDS
+			EC_number	phrog_1240
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00083
+			product	Ig domain containing protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00083
+78333	78845	gene
+			locus_tag	Koomba-kaat_1_00084
+78333	78845	CDS
+			EC_number	phrog_341
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00084
+			product	major tail protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00084
+78862	79074	gene
+			locus_tag	Koomba-kaat_1_00085
+78862	79074	CDS
+			EC_number	phrog_341
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00085
+			product	major tail protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00085
+79171	79425	gene
+			locus_tag	Koomba-kaat_1_00086
+79171	79425	CDS
+			EC_number	phrog_2673
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00086
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00086
+79425	80195	gene
+			locus_tag	Koomba-kaat_1_00087
+79425	80195	CDS
+			EC_number	phrog_2721
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00087
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00087
+80188	81441	gene
+			locus_tag	Koomba-kaat_1_00088
+80188	81441	CDS
+			EC_number	phrog_284
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00088
+			product	exonuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00088
+81453	81782	gene
+			locus_tag	Koomba-kaat_1_00089
+81453	81782	CDS
+			EC_number	phrog_2892
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00089
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00089
+81855	82388	gene
+			locus_tag	Koomba-kaat_1_00090
+81855	82388	CDS
+			EC_number	phrog_1080
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00090
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00090
+82381	83142	gene
+			locus_tag	Koomba-kaat_1_00091
+82381	83142	CDS
+			EC_number	phrog_984
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00091
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00091
+83123	83629	gene
+			locus_tag	Koomba-kaat_1_00092
+83123	83629	CDS
+			EC_number	phrog_2356
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00092
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00092
+83629	84483	gene
+			locus_tag	Koomba-kaat_1_00093
+83629	84483	CDS
+			EC_number	phrog_1113
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00093
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00093
+84856	85587	gene
+			locus_tag	Koomba-kaat_1_00094
+84856	85587	CDS
+			EC_number	phrog_1007
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00094
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00094
+85605	86063	gene
+			locus_tag	Koomba-kaat_1_00095
+85605	86063	CDS
+			EC_number	phrog_1104
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00095
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00095
+86128	86565	gene
+			locus_tag	Koomba-kaat_1_00096
+86128	86565	CDS
+			EC_number	phrog_1303
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00096
+			product	DNA binding protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00096
+86576	87211	gene
+			locus_tag	Koomba-kaat_1_00097
+86576	87211	CDS
+			EC_number	phrog_2726
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00097
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00097
+87247	87645	gene
+			locus_tag	Koomba-kaat_1_00098
+87247	87645	CDS
+			EC_number	phrog_2863
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00098
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00098
+87779	88039	gene
+			locus_tag	Koomba-kaat_1_00099
+87779	88039	CDS
+			EC_number	phrog_3157
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00099
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00099
+88049	88312	gene
+			locus_tag	Koomba-kaat_1_00100
+88049	88312	CDS
+			EC_number	phrog_13266
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00100
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00100
+88313	88597	gene
+			locus_tag	Koomba-kaat_1_00101
+88313	88597	CDS
+			EC_number	phrog_3128
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00101
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00101
+88610	88903	gene
+			locus_tag	Koomba-kaat_1_00102
+88610	88903	CDS
+			EC_number	phrog_2988
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00102
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00102
+88967	89281	gene
+			locus_tag	Koomba-kaat_1_00103
+88967	89281	CDS
+			EC_number	phrog_3143
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00103
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00103
+89284	89529	gene
+			locus_tag	Koomba-kaat_1_00104
+89284	89529	CDS
+			EC_number	phrog_13794
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00104
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00104
+89664	90158	gene
+			locus_tag	Koomba-kaat_1_00105
+89664	90158	CDS
+			EC_number	phrog_13381
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00105
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00105
+90181	90837	gene
+			locus_tag	Koomba-kaat_1_00106
+90181	90837	CDS
+			EC_number	phrog_923
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00106
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00106
+90856	91407	gene
+			locus_tag	Koomba-kaat_1_00107
+90856	91407	CDS
+			EC_number	phrog_11752
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00107
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00107
+91413	91619	gene
+			locus_tag	Koomba-kaat_1_00108
+91413	91619	CDS
+			EC_number	phrog_3453
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00108
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00108
+91619	92338	gene
+			locus_tag	Koomba-kaat_1_00109
+91619	92338	CDS
+			EC_number	phrog_923
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00109
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00109
+92325	92582	gene
+			locus_tag	Koomba-kaat_1_00110
+92325	92582	CDS
+			EC_number	phrog_13842
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00110
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00110
+92576	92977	gene
+			locus_tag	Koomba-kaat_1_00111
+92576	92977	CDS
+			EC_number	phrog_17473
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00111
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00111
+92994	93725	gene
+			locus_tag	Koomba-kaat_1_00112
+92994	93725	CDS
+			EC_number	phrog_923
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00112
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00112
+93831	94145	gene
+			locus_tag	Koomba-kaat_1_00113
+93831	94145	CDS
+			EC_number	phrog_13526
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00113
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00113
+94167	94463	gene
+			locus_tag	Koomba-kaat_1_00114
+94167	94463	CDS
+			EC_number	phrog_19178
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00114
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00114
+94655	95200	gene
+			locus_tag	Koomba-kaat_1_00115
+94655	95200	CDS
+			EC_number	phrog_9084
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00115
+			product	homing endonuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00115
+95996	96619	gene
+			locus_tag	Koomba-kaat_1_00116
+95996	96619	CDS
+			EC_number	phrog_4538
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00116
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00116
+96696	97097	gene
+			locus_tag	Koomba-kaat_1_00117
+96696	97097	CDS
+			EC_number	phrog_467
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00117
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00117
+97223	97444	gene
+			locus_tag	Koomba-kaat_1_00118
+97223	97444	CDS
+			EC_number	phrog_16365
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00118
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00118
+97481	97687	gene
+			locus_tag	Koomba-kaat_1_00119
+97481	97687	CDS
+			EC_number	phrog_13453
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00119
+			product	nuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00119
+97690	97875	gene
+			locus_tag	Koomba-kaat_1_00120
+97690	97875	CDS
+			EC_number	phrog_3204
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00120
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00120
+97941	98180	gene
+			locus_tag	Koomba-kaat_1_00121
+97941	98180	CDS
+			EC_number	phrog_6981
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00121
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00121
+98181	98381	gene
+			locus_tag	Koomba-kaat_1_00122
+98181	98381	CDS
+			EC_number	phrog_17940
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00122
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00122
+98544	98882	gene
+			locus_tag	Koomba-kaat_1_00123
+98544	98882	CDS
+			EC_number	phrog_16583
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00123
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00123
+99017	99355	gene
+			locus_tag	Koomba-kaat_1_00124
+99017	99355	CDS
+			EC_number	phrog_18429
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00124
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00124
+99355	99663	gene
+			locus_tag	Koomba-kaat_1_00125
+99355	99663	CDS
+			EC_number	phrog_9163
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00125
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00125
+99811	100212	gene
+			locus_tag	Koomba-kaat_1_00126
+99811	100212	CDS
+			EC_number	phrog_1486
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00126
+			product	membrane protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00126
+100238	100597	gene
+			locus_tag	Koomba-kaat_1_00127
+100238	100597	CDS
+			EC_number	phrog_12588
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00127
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00127
+100617	101363	gene
+			locus_tag	Koomba-kaat_1_00128
+100617	101363	CDS
+			EC_number	phrog_24081
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00128
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00128
+101409	101618	gene
+			locus_tag	Koomba-kaat_1_00129
+101409	101618	CDS
+			EC_number	phrog_21987
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00129
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00129
+101621	101929	gene
+			locus_tag	Koomba-kaat_1_00130
+101621	101929	CDS
+			EC_number	phrog_13773
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00130
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00130
+102039	102662	gene
+			locus_tag	Koomba-kaat_1_00131
+102039	102662	CDS
+			EC_number	phrog_923
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00131
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00131
+102789	103070	gene
+			locus_tag	Koomba-kaat_1_00132
+102789	103070	CDS
+			EC_number	phrog_1709
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00132
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00132
+103898	104305	gene
+			locus_tag	Koomba-kaat_1_00133
+103898	104305	CDS
+			EC_number	phrog_12518
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00133
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00133
+105055	105369	gene
+			locus_tag	Koomba-kaat_1_00134
+105055	105369	CDS
+			EC_number	phrog_2601
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00134
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00134
+105442	105597	gene
+			locus_tag	Koomba-kaat_1_00135
+105442	105597	CDS
+			EC_number	phrog_15099
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00135
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00135
+105599	105832	gene
+			locus_tag	Koomba-kaat_1_00136
+105599	105832	CDS
+			EC_number	phrog_10311
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00136
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00136
+105914	106060	gene
+			locus_tag	Koomba-kaat_1_00137
+105914	106060	CDS
+			EC_number	phrog_17700
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00137
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00137
+106115	106261	gene
+			locus_tag	Koomba-kaat_1_00138
+106115	106261	CDS
+			EC_number	phrog_3325
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00138
+			product	TreN-like membrane protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00138
+106513	106854	gene
+			locus_tag	Koomba-kaat_1_00139
+106513	106854	CDS
+			EC_number	phrog_8830
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00139
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00139
+106868	107092	gene
+			locus_tag	Koomba-kaat_1_00140
+106868	107092	CDS
+			EC_number	phrog_3549
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00140
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00140
+107197	107541	gene
+			locus_tag	Koomba-kaat_1_00141
+107197	107541	CDS
+			EC_number	phrog_8830
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00141
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00141
+108742	108176	gene
+			locus_tag	Koomba-kaat_1_00142
+108742	108176	CDS
+			EC_number	phrog_17429
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00142
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00142
+108862	108761	gene
+			locus_tag	Koomba-kaat_1_00143
+108862	108761	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00143
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00143
+108999	108820	gene
+			locus_tag	Koomba-kaat_1_00144
+108999	108820	CDS
+			EC_number	phrog_2884
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00144
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00144
+109405	109007	gene
+			locus_tag	Koomba-kaat_1_00145
+109405	109007	CDS
+			EC_number	phrog_8847
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00145
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00145
+109988	109467	gene
+			locus_tag	Koomba-kaat_1_00146
+109988	109467	CDS
+			EC_number	phrog_20169
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00146
+			product	membrane protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00146
+110371	109988	gene
+			locus_tag	Koomba-kaat_1_00147
+110371	109988	CDS
+			EC_number	phrog_301
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00147
+			product	secreted protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00147
+110766	110374	gene
+			locus_tag	Koomba-kaat_1_00148
+110766	110374	CDS
+			EC_number	phrog_2884
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00148
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00148
+111161	110769	gene
+			locus_tag	Koomba-kaat_1_00149
+111161	110769	CDS
+			EC_number	phrog_98
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00149
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00149
+111349	111161	gene
+			locus_tag	Koomba-kaat_1_00150
+111349	111161	CDS
+			EC_number	phrog_2532
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00150
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00150
+111753	111349	gene
+			locus_tag	Koomba-kaat_1_00151
+111753	111349	CDS
+			EC_number	phrog_467
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00151
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00151
+112295	111765	gene
+			locus_tag	Koomba-kaat_1_00152
+112295	111765	CDS
+			EC_number	phrog_2948
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00152
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00152
+112982	112422	gene
+			locus_tag	Koomba-kaat_1_00153
+112982	112422	CDS
+			EC_number	phrog_2981
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00153
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00153
+113391	112999	gene
+			locus_tag	Koomba-kaat_1_00154
+113391	112999	CDS
+			EC_number	phrog_4178
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00154
+			product	major tail protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00154
+113636	113412	gene
+			locus_tag	Koomba-kaat_1_00155
+113636	113412	CDS
+			EC_number	phrog_12286
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00155
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00155
+114414	113629	gene
+			locus_tag	Koomba-kaat_1_00156
+114414	113629	CDS
+			EC_number	phrog_14652
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00156
+			product	DNA binding protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00156
+115159	114797	gene
+			locus_tag	Koomba-kaat_1_00157
+115159	114797	CDS
+			EC_number	phrog_452
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00157
+			product	endonuclease
+			protein_id	gnl|Prokka|Koomba-kaat_1_00157
+118396	115178	gene
+			locus_tag	Koomba-kaat_1_00158
+118396	115178	CDS
+			EC_number	phrog_19864
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00158
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00158
+118986	118807	gene
+			locus_tag	Koomba-kaat_1_00159
+118986	118807	CDS
+			EC_number	phrog_19864
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00159
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00159
+119194	119054	gene
+			locus_tag	Koomba-kaat_1_00160
+119194	119054	CDS
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00160
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00160
+119514	119191	gene
+			locus_tag	Koomba-kaat_1_00161
+119514	119191	CDS
+			EC_number	phrog_2861
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00161
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00161
+119917	119501	gene
+			locus_tag	Koomba-kaat_1_00162
+119917	119501	CDS
+			EC_number	phrog_2708
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00162
+			product	nucleotide kinase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00162
+120221	120036	gene
+			locus_tag	Koomba-kaat_1_00163
+120221	120036	CDS
+			EC_number	phrog_3048
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00163
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00163
+120382	120221	gene
+			locus_tag	Koomba-kaat_1_00164
+120382	120221	CDS
+			EC_number	phrog_2966
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00164
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00164
+122421	120382	gene
+			locus_tag	Koomba-kaat_1_00165
+122421	120382	CDS
+			EC_number	phrog_3200
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00165
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00165
+122763	122500	gene
+			locus_tag	Koomba-kaat_1_00166
+122763	122500	CDS
+			EC_number	phrog_2811
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00166
+			product	virion structural protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00166
+122950	122777	gene
+			locus_tag	Koomba-kaat_1_00167
+122950	122777	CDS
+			EC_number	phrog_1274
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00167
+			product	lysM motif protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00167
+123548	122925	gene
+			locus_tag	Koomba-kaat_1_00168
+123548	122925	CDS
+			EC_number	phrog_2642
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00168
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00168
+124134	123541	gene
+			locus_tag	Koomba-kaat_1_00169
+124134	123541	CDS
+			EC_number	phrog_1817
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00169
+			product	nucleoside 2-deoxyribosyltransferase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00169
+126436	124136	gene
+			locus_tag	Koomba-kaat_1_00170
+126436	124136	CDS
+			EC_number	phrog_8238
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00170
+			product	RNA ligase
+			protein_id	gnl|Prokka|Koomba-kaat_1_00170
+126989	126591	gene
+			locus_tag	Koomba-kaat_1_00171
+126989	126591	CDS
+			EC_number	phrog_23790
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00171
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00171
+127631	127029	gene
+			locus_tag	Koomba-kaat_1_00172
+127631	127029	CDS
+			EC_number	phrog_2995
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00172
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00172
+127907	127644	gene
+			locus_tag	Koomba-kaat_1_00173
+127907	127644	CDS
+			EC_number	phrog_3093
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00173
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00173
+128344	127919	gene
+			locus_tag	Koomba-kaat_1_00174
+128344	127919	CDS
+			EC_number	phrog_25616
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00174
+			product	Rnase H
+			protein_id	gnl|Prokka|Koomba-kaat_1_00174
+128525	128337	gene
+			locus_tag	Koomba-kaat_1_00175
+128525	128337	CDS
+			EC_number	phrog_2706
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00175
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00175
+129177	128539	gene
+			locus_tag	Koomba-kaat_1_00176
+129177	128539	CDS
+			EC_number	phrog_2896
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00176
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00176
+129385	129170	gene
+			locus_tag	Koomba-kaat_1_00177
+129385	129170	CDS
+			EC_number	phrog_8
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00177
+			product	transcriptional regulator
+			protein_id	gnl|Prokka|Koomba-kaat_1_00177
+129620	129399	gene
+			locus_tag	Koomba-kaat_1_00178
+129620	129399	CDS
+			EC_number	phrog_2770
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00178
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00178
+130480	129722	gene
+			locus_tag	Koomba-kaat_1_00179
+130480	129722	CDS
+			EC_number	phrog_12367
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00179
+			product	endolysin
+			protein_id	gnl|Prokka|Koomba-kaat_1_00179
+131411	130494	gene
+			locus_tag	Koomba-kaat_1_00180
+131411	130494	CDS
+			EC_number	phrog_833
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00180
+			product	endolysin
+			protein_id	gnl|Prokka|Koomba-kaat_1_00180
+131911	131411	gene
+			locus_tag	Koomba-kaat_1_00181
+131911	131411	CDS
+			EC_number	phrog_962
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00181
+			product	holin
+			protein_id	gnl|Prokka|Koomba-kaat_1_00181
+132180	131992	gene
+			locus_tag	Koomba-kaat_1_00182
+132180	131992	CDS
+			EC_number	phrog_987
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00182
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00182
+133207	132992	gene
+			locus_tag	Koomba-kaat_1_00183
+133207	132992	CDS
+			EC_number	phrog_1257
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00183
+			product	ribosome associated inhibitor A; zinc finger domain protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00183
+133702	133487	gene
+			locus_tag	Koomba-kaat_1_00184
+133702	133487	CDS
+			EC_number	phrog_1215
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00184
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00184
+134045	133713	gene
+			locus_tag	Koomba-kaat_1_00185
+134045	133713	CDS
+			EC_number	phrog_937
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00185
+			product	hemolysin
+			protein_id	gnl|Prokka|Koomba-kaat_1_00185
+134384	134052	gene
+			locus_tag	Koomba-kaat_1_00186
+134384	134052	CDS
+			EC_number	phrog_1481
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00186
+			product	hypothetical protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00186
+134984	135214	gene
+			locus_tag	Koomba-kaat_1_00187
+134984	135214	CDS
+			EC_number	phrog_5547
+			inference	ab initio prediction:Prodigal:002006
+			locus_tag	Koomba-kaat_1_00187
+			product	membrane protein
+			protein_id	gnl|Prokka|Koomba-kaat_1_00187

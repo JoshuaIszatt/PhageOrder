@@ -1,0 +1,377 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+Koomba-kaat_1_00001	gene	234				
+Koomba-kaat_1_00001	CDS	234				hypothetical protein
+Koomba-kaat_1_00002	gene	480				
+Koomba-kaat_1_00002	CDS	480		phrog_1116		hypothetical protein
+Koomba-kaat_1_00003	gene	177				
+Koomba-kaat_1_00003	CDS	177		phrog_3863		hypothetical protein
+Koomba-kaat_1_00004	gene	801				
+Koomba-kaat_1_00004	CDS	801		phrog_1917		virion structural protein
+Koomba-kaat_1_00005	gene	162				
+Koomba-kaat_1_00005	CDS	162				hypothetical protein
+Koomba-kaat_1_00006	gene	921				
+Koomba-kaat_1_00006	CDS	921		phrog_559		HNH endonuclease
+Koomba-kaat_1_00007	gene	1194				
+Koomba-kaat_1_00007	CDS	1194		phrog_675		terminase large subunit
+Koomba-kaat_1_00008	gene	99				
+Koomba-kaat_1_00008	CDS	99				hypothetical protein
+Koomba-kaat_1_00009	gene	168				
+Koomba-kaat_1_00009	CDS	168		phrog_34048		terminase large subunit
+Koomba-kaat_1_00010	gene	369				
+Koomba-kaat_1_00010	CDS	369		phrog_9315		terminase large subunit
+Koomba-kaat_1_00011	gene	414				
+Koomba-kaat_1_00011	CDS	414		phrog_1063		terminase small subunit
+Koomba-kaat_1_00012	gene	282				
+Koomba-kaat_1_00012	CDS	282		phrog_1321		hypothetical protein
+Koomba-kaat_1_00013	gene	387				
+Koomba-kaat_1_00013	CDS	387		phrog_3395		membrane protein
+Koomba-kaat_1_00014	gene	333				
+Koomba-kaat_1_00014	CDS	333		phrog_1481		hypothetical protein
+Koomba-kaat_1_00015	gene	333				
+Koomba-kaat_1_00015	CDS	333		phrog_937		hemolysin
+Koomba-kaat_1_00016	gene	216				
+Koomba-kaat_1_00016	CDS	216		phrog_1215		hypothetical protein
+Koomba-kaat_1_00017	gene	216				
+Koomba-kaat_1_00017	CDS	216		phrog_1257		ribosome associated inhibitor A; zinc finger domain protein
+Koomba-kaat_1_00018	gene	189				
+Koomba-kaat_1_00018	CDS	189		phrog_987		hypothetical protein
+Koomba-kaat_1_00019	gene	501				
+Koomba-kaat_1_00019	CDS	501		phrog_962		holin
+Koomba-kaat_1_00020	gene	918				
+Koomba-kaat_1_00020	CDS	918		phrog_833		endolysin
+Koomba-kaat_1_00021	gene	759				
+Koomba-kaat_1_00021	CDS	759		phrog_12367		endolysin
+Koomba-kaat_1_00022	gene	222				
+Koomba-kaat_1_00022	CDS	222		phrog_2770		hypothetical protein
+Koomba-kaat_1_00023	gene	216				
+Koomba-kaat_1_00023	CDS	216		phrog_8		transcriptional regulator
+Koomba-kaat_1_00024	gene	639				
+Koomba-kaat_1_00024	CDS	639		phrog_2896		hypothetical protein
+Koomba-kaat_1_00025	gene	189				
+Koomba-kaat_1_00025	CDS	189		phrog_2706		hypothetical protein
+Koomba-kaat_1_00026	gene	426				
+Koomba-kaat_1_00026	CDS	426		phrog_25616		Rnase H
+Koomba-kaat_1_00027	gene	264				
+Koomba-kaat_1_00027	CDS	264		phrog_3093		hypothetical protein
+Koomba-kaat_1_00028	gene	603				
+Koomba-kaat_1_00028	CDS	603		phrog_2995		hypothetical protein
+Koomba-kaat_1_00029	gene	399				
+Koomba-kaat_1_00029	CDS	399		phrog_23790		hypothetical protein
+Koomba-kaat_1_00030	gene	2301				
+Koomba-kaat_1_00030	CDS	2301		phrog_8238		RNA ligase
+Koomba-kaat_1_00031	gene	594				
+Koomba-kaat_1_00031	CDS	594		phrog_1817		nucleoside 2-deoxyribosyltransferase
+Koomba-kaat_1_00032	gene	624				
+Koomba-kaat_1_00032	CDS	624		phrog_2642		hypothetical protein
+Koomba-kaat_1_00033	gene	174				
+Koomba-kaat_1_00033	CDS	174		phrog_1274		lysM motif protein
+Koomba-kaat_1_00034	gene	264				
+Koomba-kaat_1_00034	CDS	264		phrog_2811		virion structural protein
+Koomba-kaat_1_00035	gene	2040				
+Koomba-kaat_1_00035	CDS	2040		phrog_3200		hypothetical protein
+Koomba-kaat_1_00036	gene	162				
+Koomba-kaat_1_00036	CDS	162		phrog_2966		hypothetical protein
+Koomba-kaat_1_00037	gene	186				
+Koomba-kaat_1_00037	CDS	186		phrog_3048		hypothetical protein
+Koomba-kaat_1_00038	gene	417				
+Koomba-kaat_1_00038	CDS	417		phrog_2708		nucleotide kinase
+Koomba-kaat_1_00039	gene	324				
+Koomba-kaat_1_00039	CDS	324		phrog_2861		hypothetical protein
+Koomba-kaat_1_00040	gene	141				
+Koomba-kaat_1_00040	CDS	141				hypothetical protein
+Koomba-kaat_1_00041	gene	180				
+Koomba-kaat_1_00041	CDS	180		phrog_19864		hypothetical protein
+Koomba-kaat_1_00042	gene	3219				
+Koomba-kaat_1_00042	CDS	3219		phrog_19864		hypothetical protein
+Koomba-kaat_1_00043	gene	363				
+Koomba-kaat_1_00043	CDS	363		phrog_452		endonuclease
+Koomba-kaat_1_00044	gene	786				
+Koomba-kaat_1_00044	CDS	786		phrog_14652		DNA binding protein
+Koomba-kaat_1_00045	gene	225				
+Koomba-kaat_1_00045	CDS	225		phrog_12286		hypothetical protein
+Koomba-kaat_1_00046	gene	393				
+Koomba-kaat_1_00046	CDS	393		phrog_4178		major tail protein
+Koomba-kaat_1_00047	gene	561				
+Koomba-kaat_1_00047	CDS	561		phrog_2981		hypothetical protein
+Koomba-kaat_1_00048	gene	531				
+Koomba-kaat_1_00048	CDS	531		phrog_2948		hypothetical protein
+Koomba-kaat_1_00049	gene	405				
+Koomba-kaat_1_00049	CDS	405		phrog_467		hypothetical protein
+Koomba-kaat_1_00050	gene	189				
+Koomba-kaat_1_00050	CDS	189		phrog_2532		hypothetical protein
+Koomba-kaat_1_00051	gene	393				
+Koomba-kaat_1_00051	CDS	393		phrog_98		hypothetical protein
+Koomba-kaat_1_00052	gene	393				
+Koomba-kaat_1_00052	CDS	393		phrog_2884		hypothetical protein
+Koomba-kaat_1_00053	gene	384				
+Koomba-kaat_1_00053	CDS	384		phrog_301		secreted protein
+Koomba-kaat_1_00054	gene	522				
+Koomba-kaat_1_00054	CDS	522		phrog_20169		membrane protein
+Koomba-kaat_1_00055	gene	399				
+Koomba-kaat_1_00055	CDS	399		phrog_8847		hypothetical protein
+Koomba-kaat_1_00056	gene	180				
+Koomba-kaat_1_00056	CDS	180		phrog_2884		hypothetical protein
+Koomba-kaat_1_00057	gene	102				
+Koomba-kaat_1_00057	CDS	102				hypothetical protein
+Koomba-kaat_1_00058	gene	567				
+Koomba-kaat_1_00058	CDS	567		phrog_17429		hypothetical protein
+Koomba-kaat_1_00059	gene	345				
+Koomba-kaat_1_00059	CDS	345		phrog_8830		hypothetical protein
+Koomba-kaat_1_00060	gene	225				
+Koomba-kaat_1_00060	CDS	225		phrog_3549		hypothetical protein
+Koomba-kaat_1_00061	gene	342				
+Koomba-kaat_1_00061	CDS	342		phrog_8830		hypothetical protein
+Koomba-kaat_1_00062	gene	147				
+Koomba-kaat_1_00062	CDS	147		phrog_3325		TreN-like membrane protein
+Koomba-kaat_1_00063	gene	147				
+Koomba-kaat_1_00063	CDS	147		phrog_17700		hypothetical protein
+Koomba-kaat_1_00064	gene	234				
+Koomba-kaat_1_00064	CDS	234		phrog_10311		hypothetical protein
+Koomba-kaat_1_00065	gene	156				
+Koomba-kaat_1_00065	CDS	156		phrog_15099		hypothetical protein
+Koomba-kaat_1_00066	gene	315				
+Koomba-kaat_1_00066	CDS	315		phrog_2601		hypothetical protein
+Koomba-kaat_1_00067	gene	408				
+Koomba-kaat_1_00067	CDS	408		phrog_12518		hypothetical protein
+Koomba-kaat_1_00068	gene	282				
+Koomba-kaat_1_00068	CDS	282		phrog_1709		hypothetical protein
+Koomba-kaat_1_00069	gene	624				
+Koomba-kaat_1_00069	CDS	624		phrog_923		hypothetical protein
+Koomba-kaat_1_00070	gene	309				
+Koomba-kaat_1_00070	CDS	309		phrog_13773		hypothetical protein
+Koomba-kaat_1_00071	gene	210				
+Koomba-kaat_1_00071	CDS	210		phrog_21987		hypothetical protein
+Koomba-kaat_1_00072	gene	747				
+Koomba-kaat_1_00072	CDS	747		phrog_24081		hypothetical protein
+Koomba-kaat_1_00073	gene	360				
+Koomba-kaat_1_00073	CDS	360		phrog_12588		hypothetical protein
+Koomba-kaat_1_00074	gene	402				
+Koomba-kaat_1_00074	CDS	402		phrog_1486		membrane protein
+Koomba-kaat_1_00075	gene	309				
+Koomba-kaat_1_00075	CDS	309		phrog_9163		hypothetical protein
+Koomba-kaat_1_00076	gene	339				
+Koomba-kaat_1_00076	CDS	339		phrog_18429		hypothetical protein
+Koomba-kaat_1_00077	gene	339				
+Koomba-kaat_1_00077	CDS	339		phrog_16583		hypothetical protein
+Koomba-kaat_1_00078	gene	201				
+Koomba-kaat_1_00078	CDS	201		phrog_17940		hypothetical protein
+Koomba-kaat_1_00079	gene	240				
+Koomba-kaat_1_00079	CDS	240		phrog_6981		hypothetical protein
+Koomba-kaat_1_00080	gene	186				
+Koomba-kaat_1_00080	CDS	186		phrog_3204		hypothetical protein
+Koomba-kaat_1_00081	gene	207				
+Koomba-kaat_1_00081	CDS	207		phrog_13453		nuclease
+Koomba-kaat_1_00082	gene	222				
+Koomba-kaat_1_00082	CDS	222		phrog_16365		hypothetical protein
+Koomba-kaat_1_00083	gene	402				
+Koomba-kaat_1_00083	CDS	402		phrog_467		hypothetical protein
+Koomba-kaat_1_00084	gene	624				
+Koomba-kaat_1_00084	CDS	624		phrog_4538		hypothetical protein
+Koomba-kaat_1_00085	gene	546				
+Koomba-kaat_1_00085	CDS	546		phrog_9084		homing endonuclease
+Koomba-kaat_1_00086	gene	297				
+Koomba-kaat_1_00086	CDS	297		phrog_19178		hypothetical protein
+Koomba-kaat_1_00087	gene	315				
+Koomba-kaat_1_00087	CDS	315		phrog_13526		hypothetical protein
+Koomba-kaat_1_00088	gene	732				
+Koomba-kaat_1_00088	CDS	732		phrog_923		hypothetical protein
+Koomba-kaat_1_00089	gene	402				
+Koomba-kaat_1_00089	CDS	402		phrog_17473		hypothetical protein
+Koomba-kaat_1_00090	gene	258				
+Koomba-kaat_1_00090	CDS	258		phrog_13842		hypothetical protein
+Koomba-kaat_1_00091	gene	720				
+Koomba-kaat_1_00091	CDS	720		phrog_923		hypothetical protein
+Koomba-kaat_1_00092	gene	207				
+Koomba-kaat_1_00092	CDS	207		phrog_3453		hypothetical protein
+Koomba-kaat_1_00093	gene	552				
+Koomba-kaat_1_00093	CDS	552		phrog_11752		hypothetical protein
+Koomba-kaat_1_00094	gene	657				
+Koomba-kaat_1_00094	CDS	657		phrog_923		hypothetical protein
+Koomba-kaat_1_00095	gene	495				
+Koomba-kaat_1_00095	CDS	495		phrog_13381		hypothetical protein
+Koomba-kaat_1_00096	gene	246				
+Koomba-kaat_1_00096	CDS	246		phrog_13794		hypothetical protein
+Koomba-kaat_1_00097	gene	315				
+Koomba-kaat_1_00097	CDS	315		phrog_3143		hypothetical protein
+Koomba-kaat_1_00098	gene	294				
+Koomba-kaat_1_00098	CDS	294		phrog_2988		hypothetical protein
+Koomba-kaat_1_00099	gene	285				
+Koomba-kaat_1_00099	CDS	285		phrog_3128		hypothetical protein
+Koomba-kaat_1_00100	gene	264				
+Koomba-kaat_1_00100	CDS	264		phrog_13266		hypothetical protein
+Koomba-kaat_1_00101	gene	261				
+Koomba-kaat_1_00101	CDS	261		phrog_3157		hypothetical protein
+Koomba-kaat_1_00102	gene	399				
+Koomba-kaat_1_00102	CDS	399		phrog_2863		hypothetical protein
+Koomba-kaat_1_00103	gene	636				
+Koomba-kaat_1_00103	CDS	636		phrog_2726		hypothetical protein
+Koomba-kaat_1_00104	gene	438				
+Koomba-kaat_1_00104	CDS	438		phrog_1303		DNA binding protein
+Koomba-kaat_1_00105	gene	459				
+Koomba-kaat_1_00105	CDS	459		phrog_1104		virion structural protein
+Koomba-kaat_1_00106	gene	732				
+Koomba-kaat_1_00106	CDS	732		phrog_1007		hypothetical protein
+Koomba-kaat_1_00107	gene	855				
+Koomba-kaat_1_00107	CDS	855		phrog_1113		hypothetical protein
+Koomba-kaat_1_00108	gene	507				
+Koomba-kaat_1_00108	CDS	507		phrog_2356		hypothetical protein
+Koomba-kaat_1_00109	gene	762				
+Koomba-kaat_1_00109	CDS	762		phrog_984		hypothetical protein
+Koomba-kaat_1_00110	gene	534				
+Koomba-kaat_1_00110	CDS	534		phrog_1080		hypothetical protein
+Koomba-kaat_1_00111	gene	330				
+Koomba-kaat_1_00111	CDS	330		phrog_2892		hypothetical protein
+Koomba-kaat_1_00112	gene	1254				
+Koomba-kaat_1_00112	CDS	1254		phrog_284		exonuclease
+Koomba-kaat_1_00113	gene	771				
+Koomba-kaat_1_00113	CDS	771		phrog_2721		hypothetical protein
+Koomba-kaat_1_00114	gene	255				
+Koomba-kaat_1_00114	CDS	255		phrog_2673		hypothetical protein
+Koomba-kaat_1_00115	gene	213				
+Koomba-kaat_1_00115	CDS	213		phrog_341		major tail protein
+Koomba-kaat_1_00116	gene	513				
+Koomba-kaat_1_00116	CDS	513		phrog_341		major tail protein
+Koomba-kaat_1_00117	gene	750				
+Koomba-kaat_1_00117	CDS	750		phrog_1240		Ig domain containing protein
+Koomba-kaat_1_00118	gene	660				
+Koomba-kaat_1_00118	CDS	660		phrog_1025		RNA polymerase sigma factor
+Koomba-kaat_1_00119	gene	354				
+Koomba-kaat_1_00119	CDS	354		phrog_1089		hypothetical protein
+Koomba-kaat_1_00120	gene	1026				
+Koomba-kaat_1_00120	CDS	1026		phrog_97		UvsX-like recombinase
+Koomba-kaat_1_00121	gene	234				
+Koomba-kaat_1_00121	CDS	234		phrog_8290		RecA or Sak4, length ?
+Koomba-kaat_1_00122	gene	1170				
+Koomba-kaat_1_00122	CDS	1170		phrog_2672		hypothetical protein
+Koomba-kaat_1_00123	gene	369				
+Koomba-kaat_1_00123	CDS	369		phrog_24838		hypothetical protein
+Koomba-kaat_1_00124	gene	483				
+Koomba-kaat_1_00124	CDS	483		phrog_1069		hypothetical protein
+Koomba-kaat_1_00125	gene	657				
+Koomba-kaat_1_00125	CDS	657		phrog_5995		DNA polymerase
+Koomba-kaat_1_00126	gene	645				
+Koomba-kaat_1_00126	CDS	645		phrog_2081		HNH endonuclease
+Koomba-kaat_1_00127	gene	3750				
+Koomba-kaat_1_00127	CDS	3750		phrog_4008		DNA polymerase
+Koomba-kaat_1_00128	gene	303				
+Koomba-kaat_1_00128	CDS	303		phrog_379		DNA binding protein
+Koomba-kaat_1_00129	gene	603				
+Koomba-kaat_1_00129	CDS	603		phrog_1054		hypothetical protein
+Koomba-kaat_1_00130	gene	321				
+Koomba-kaat_1_00130	CDS	321				hypothetical protein
+Koomba-kaat_1_00131	gene	327				
+Koomba-kaat_1_00131	CDS	327		phrog_2797		hypothetical protein
+Koomba-kaat_1_00132	gene	2652				
+Koomba-kaat_1_00132	CDS	2652		phrog_12229		ribonucleotide reductase
+Koomba-kaat_1_00133	gene	1338				
+Koomba-kaat_1_00133	CDS	1338		phrog_86		ribonucleoside diphosphate reductase small subunit
+Koomba-kaat_1_00134	gene	609				
+Koomba-kaat_1_00134	CDS	609		phrog_244		RusA-like Holliday junction resolvase
+Koomba-kaat_1_00135	gene	462				
+Koomba-kaat_1_00135	CDS	462		phrog_1095		hypothetical protein
+Koomba-kaat_1_00136	gene	309				
+Koomba-kaat_1_00136	CDS	309		phrog_1291		hypothetical protein
+Koomba-kaat_1_00137	gene	1077				
+Koomba-kaat_1_00137	CDS	1077		phrog_47		DNA primase
+Koomba-kaat_1_00138	gene	594				
+Koomba-kaat_1_00138	CDS	594		phrog_1070		anti-sigma factor
+Koomba-kaat_1_00139	gene	1935				
+Koomba-kaat_1_00139	CDS	1935		phrog_77		SbcC-like subunit of palindrome specific endonuclease
+Koomba-kaat_1_00140	gene	267				
+Koomba-kaat_1_00140	CDS	267		phrog_2773		hypothetical protein
+Koomba-kaat_1_00141	gene	1032				
+Koomba-kaat_1_00141	CDS	1032		phrog_100		SbcD-like subunit of palindrome specific endonuclease
+Koomba-kaat_1_00142	gene	690				
+Koomba-kaat_1_00142	CDS	690		phrog_67		DNA methyltransferase
+Koomba-kaat_1_00143	gene	249				
+Koomba-kaat_1_00143	CDS	249		phrog_9725		hypothetical protein
+Koomba-kaat_1_00144	gene	477				
+Koomba-kaat_1_00144	CDS	477		phrog_67		DNA methyltransferase
+Koomba-kaat_1_00145	gene	111				
+Koomba-kaat_1_00145	CDS	111		phrog_6025		DNA methyltransferase
+Koomba-kaat_1_00146	gene	246				
+Koomba-kaat_1_00146	CDS	246		phrog_12198		hypothetical protein
+Koomba-kaat_1_00147	gene	258				
+Koomba-kaat_1_00147	CDS	258		phrog_11461		hypothetical protein
+Koomba-kaat_1_00148	gene	1440				
+Koomba-kaat_1_00148	CDS	1440		phrog_19		DnaB-like replicative helicase
+Koomba-kaat_1_00149	gene	1587				
+Koomba-kaat_1_00149	CDS	1587		phrog_1098		HTH DNA binding protein
+Koomba-kaat_1_00150	gene	1314				
+Koomba-kaat_1_00150	CDS	1314		phrog_9690		DNA helicase
+Koomba-kaat_1_00151	gene	456				
+Koomba-kaat_1_00151	CDS	456		phrog_14619		DNA helicase
+Koomba-kaat_1_00152	gene	1365				
+Koomba-kaat_1_00152	CDS	1365		phrog_2691		tail fiber protein
+Koomba-kaat_1_00153	gene	357				
+Koomba-kaat_1_00153	CDS	357		phrog_2671		tail fiber protein
+Koomba-kaat_1_00154	gene	1914				
+Koomba-kaat_1_00154	CDS	1914		phrog_2665		virion structural protein
+Koomba-kaat_1_00155	gene	171				
+Koomba-kaat_1_00155	CDS	171		phrog_1074		hypothetical protein
+Koomba-kaat_1_00156	gene	3459				
+Koomba-kaat_1_00156	CDS	3459		phrog_877		hypothetical protein
+Koomba-kaat_1_00157	gene	522				
+Koomba-kaat_1_00157	CDS	522		phrog_1394		virion structural protein
+Koomba-kaat_1_00158	gene	2703				
+Koomba-kaat_1_00158	CDS	2703		phrog_2386		virion structural protein
+Koomba-kaat_1_00159	gene	1047				
+Koomba-kaat_1_00159	CDS	1047		phrog_6		baseplate protein
+Koomba-kaat_1_00160	gene	705				
+Koomba-kaat_1_00160	CDS	705		phrog_975		baseplate protein
+Koomba-kaat_1_00161	gene	522				
+Koomba-kaat_1_00161	CDS	522		phrog_1073		hypothetical protein
+Koomba-kaat_1_00162	gene	852				
+Koomba-kaat_1_00162	CDS	852		phrog_1011		virion structural protein
+Koomba-kaat_1_00163	gene	2457				
+Koomba-kaat_1_00163	CDS	2457		phrog_2204		glycerophosphoryl diester phosphodiesterase
+Koomba-kaat_1_00164	gene	891				
+Koomba-kaat_1_00164	CDS	891		phrog_2677		tail protein with lysin activity
+Koomba-kaat_1_00165	gene	2433				
+Koomba-kaat_1_00165	CDS	2433		phrog_1015		tail protein with lysin activity
+Koomba-kaat_1_00166	gene	825				
+Koomba-kaat_1_00166	CDS	825		phrog_8949		hypothetical protein
+Koomba-kaat_1_00167	gene	870				
+Koomba-kaat_1_00167	CDS	870		phrog_10341		endolysin
+Koomba-kaat_1_00168	gene	2994				
+Koomba-kaat_1_00168	CDS	2994		phrog_1047		tail associated lysin
+Koomba-kaat_1_00169	gene	444				
+Koomba-kaat_1_00169	CDS	444		phrog_1316		RNA polymerase beta subunit
+Koomba-kaat_1_00170	gene	417				
+Koomba-kaat_1_00170	CDS	417		phrog_1038		tail assembly chaperone
+Koomba-kaat_1_00171	gene	309				
+Koomba-kaat_1_00171	CDS	309		phrog_2754		virion structural protein
+Koomba-kaat_1_00172	gene	450				
+Koomba-kaat_1_00172	CDS	450		phrog_1905		hypothetical protein
+Koomba-kaat_1_00173	gene	144				
+Koomba-kaat_1_00173	CDS	144		phrog_2701		hypothetical protein
+Koomba-kaat_1_00174	gene	987				
+Koomba-kaat_1_00174	CDS	987		phrog_7140		intron encoded nuclease
+Koomba-kaat_1_00175	gene	360				
+Koomba-kaat_1_00175	CDS	360		phrog_985		virion structural protein
+Koomba-kaat_1_00176	gene	1761				
+Koomba-kaat_1_00176	CDS	1761		phrog_279		tail sheath
+Koomba-kaat_1_00177	gene	207				
+Koomba-kaat_1_00177	CDS	207		phrog_1151		hypothetical protein
+Koomba-kaat_1_00178	gene	837				
+Koomba-kaat_1_00178	CDS	837		phrog_1000		hypothetical protein
+Koomba-kaat_1_00179	gene	621				
+Koomba-kaat_1_00179	CDS	621		phrog_1127		hypothetical protein
+Koomba-kaat_1_00180	gene	876				
+Koomba-kaat_1_00180	CDS	876		phrog_1004		virion structural protein
+Koomba-kaat_1_00181	gene	909				
+Koomba-kaat_1_00181	CDS	909		phrog_772		tail fiber protein
+Koomba-kaat_1_00182	gene	234				
+Koomba-kaat_1_00182	CDS	234		phrog_1205		hypothetical protein
+Koomba-kaat_1_00183	gene	1392				
+Koomba-kaat_1_00183	CDS	1392		phrog_752		major head protein
+Koomba-kaat_1_00184	gene	951				
+Koomba-kaat_1_00184	CDS	951		phrog_1133		hypothetical protein
+Koomba-kaat_1_00185	gene	774				
+Koomba-kaat_1_00185	CDS	774		phrog_1028		head maturation protease
+Koomba-kaat_1_00186	gene	1686				
+Koomba-kaat_1_00186	CDS	1686		phrog_15361		portal protein
+Koomba-kaat_1_00187	gene	366				
+Koomba-kaat_1_00187	CDS	366		phrog_1108		portal protein
+Koomba-kaat_1_00188	gene	360				
+Koomba-kaat_1_00188	CDS	360		phrog_3937		hypothetical protein

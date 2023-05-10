@@ -1,0 +1,189 @@
+locus_tag,length_bp,EC_number,product,start,end,category,strand
+Koomba-kaat_1_00001,234,nan,hypothetical protein,150,383,,+
+Koomba-kaat_1_00002,480,phrog_1116,hypothetical protein,743,1222,unknown function,-
+Koomba-kaat_1_00003,177,phrog_3863,hypothetical protein,1215,1391,unknown function,-
+Koomba-kaat_1_00004,801,phrog_1917,virion structural protein,1378,2178,head and packaging,-
+Koomba-kaat_1_00005,162,nan,hypothetical protein,2194,2355,,-
+Koomba-kaat_1_00006,921,phrog_559,HNH endonuclease,2432,3352,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00007,1194,phrog_675,terminase large subunit,3574,4767,head and packaging,-
+Koomba-kaat_1_00008,99,nan,hypothetical protein,4975,5073,,-
+Koomba-kaat_1_00009,168,phrog_34048,terminase large subunit,5313,5480,head and packaging,-
+Koomba-kaat_1_00010,369,phrog_9315,terminase large subunit,5742,6110,head and packaging,-
+Koomba-kaat_1_00011,414,phrog_1063,terminase small subunit,6127,6540,head and packaging,-
+Koomba-kaat_1_00012,282,phrog_1321,hypothetical protein,6537,6818,unknown function,-
+Koomba-kaat_1_00013,387,phrog_3395,membrane protein,6796,7182,"moron, auxiliary metabolic gene and host takeover",-
+Koomba-kaat_1_00014,333,phrog_1481,hypothetical protein,7626,7958,unknown function,+
+Koomba-kaat_1_00015,333,phrog_937,hemolysin,7965,8297,other,+
+Koomba-kaat_1_00016,216,phrog_1215,hypothetical protein,8308,8523,unknown function,+
+Koomba-kaat_1_00017,216,phrog_1257,ribosome associated inhibitor A; zinc finger domain protein,8803,9018,"moron, auxiliary metabolic gene and host takeover",+
+Koomba-kaat_1_00018,189,phrog_987,hypothetical protein,9830,10018,unknown function,+
+Koomba-kaat_1_00019,501,phrog_962,holin,10099,10599,lysis,+
+Koomba-kaat_1_00020,918,phrog_833,endolysin,10599,11516,lysis,+
+Koomba-kaat_1_00021,759,phrog_12367,endolysin,11530,12288,lysis,+
+Koomba-kaat_1_00022,222,phrog_2770,hypothetical protein,12390,12611,unknown function,+
+Koomba-kaat_1_00023,216,phrog_8,transcriptional regulator,12625,12840,transcription regulation,+
+Koomba-kaat_1_00024,639,phrog_2896,hypothetical protein,12833,13471,unknown function,+
+Koomba-kaat_1_00025,189,phrog_2706,hypothetical protein,13485,13673,unknown function,+
+Koomba-kaat_1_00026,426,phrog_25616,Rnase H,13666,14091,"DNA, RNA and nucleotide metabolism",+
+Koomba-kaat_1_00027,264,phrog_3093,hypothetical protein,14103,14366,unknown function,+
+Koomba-kaat_1_00028,603,phrog_2995,hypothetical protein,14379,14981,unknown function,+
+Koomba-kaat_1_00029,399,phrog_23790,hypothetical protein,15021,15419,unknown function,+
+Koomba-kaat_1_00030,2301,phrog_8238,RNA ligase,15574,17874,"DNA, RNA and nucleotide metabolism",+
+Koomba-kaat_1_00031,594,phrog_1817,nucleoside 2-deoxyribosyltransferase,17876,18469,"DNA, RNA and nucleotide metabolism",+
+Koomba-kaat_1_00032,624,phrog_2642,hypothetical protein,18462,19085,unknown function,+
+Koomba-kaat_1_00033,174,phrog_1274,lysM motif protein,19060,19233,lysis,+
+Koomba-kaat_1_00034,264,phrog_2811,virion structural protein,19247,19510,head and packaging,+
+Koomba-kaat_1_00035,2040,phrog_3200,hypothetical protein,19589,21628,unknown function,+
+Koomba-kaat_1_00036,162,phrog_2966,hypothetical protein,21628,21789,unknown function,+
+Koomba-kaat_1_00037,186,phrog_3048,hypothetical protein,21789,21974,unknown function,+
+Koomba-kaat_1_00038,417,phrog_2708,nucleotide kinase,22093,22509,other,+
+Koomba-kaat_1_00039,324,phrog_2861,hypothetical protein,22496,22819,unknown function,+
+Koomba-kaat_1_00040,141,nan,hypothetical protein,22816,22956,,+
+Koomba-kaat_1_00041,180,phrog_19864,hypothetical protein,23024,23203,unknown function,+
+Koomba-kaat_1_00042,3219,phrog_19864,hypothetical protein,23614,26832,unknown function,+
+Koomba-kaat_1_00043,363,phrog_452,endonuclease,26851,27213,"DNA, RNA and nucleotide metabolism",+
+Koomba-kaat_1_00044,786,phrog_14652,DNA binding protein,27596,28381,"DNA, RNA and nucleotide metabolism",+
+Koomba-kaat_1_00045,225,phrog_12286,hypothetical protein,28374,28598,unknown function,+
+Koomba-kaat_1_00046,393,phrog_4178,major tail protein,28619,29011,tail,+
+Koomba-kaat_1_00047,561,phrog_2981,hypothetical protein,29028,29588,unknown function,+
+Koomba-kaat_1_00048,531,phrog_2948,hypothetical protein,29715,30245,unknown function,+
+Koomba-kaat_1_00049,405,phrog_467,hypothetical protein,30257,30661,unknown function,+
+Koomba-kaat_1_00050,189,phrog_2532,hypothetical protein,30661,30849,unknown function,+
+Koomba-kaat_1_00051,393,phrog_98,hypothetical protein,30849,31241,unknown function,+
+Koomba-kaat_1_00052,393,phrog_2884,hypothetical protein,31244,31636,unknown function,+
+Koomba-kaat_1_00053,384,phrog_301,secreted protein,31639,32022,other,+
+Koomba-kaat_1_00054,522,phrog_20169,membrane protein,32022,32543,"moron, auxiliary metabolic gene and host takeover",+
+Koomba-kaat_1_00055,399,phrog_8847,hypothetical protein,32605,33003,unknown function,+
+Koomba-kaat_1_00056,180,phrog_2884,hypothetical protein,33011,33190,unknown function,+
+Koomba-kaat_1_00057,102,nan,hypothetical protein,33148,33249,,+
+Koomba-kaat_1_00058,567,phrog_17429,hypothetical protein,33268,33834,unknown function,+
+Koomba-kaat_1_00059,345,phrog_8830,hypothetical protein,34469,34813,unknown function,-
+Koomba-kaat_1_00060,225,phrog_3549,hypothetical protein,34918,35142,unknown function,-
+Koomba-kaat_1_00061,342,phrog_8830,hypothetical protein,35156,35497,unknown function,-
+Koomba-kaat_1_00062,147,phrog_3325,TreN-like membrane protein,35749,35895,other,-
+Koomba-kaat_1_00063,147,phrog_17700,hypothetical protein,35950,36096,unknown function,-
+Koomba-kaat_1_00064,234,phrog_10311,hypothetical protein,36178,36411,unknown function,-
+Koomba-kaat_1_00065,156,phrog_15099,hypothetical protein,36413,36568,unknown function,-
+Koomba-kaat_1_00066,315,phrog_2601,hypothetical protein,36641,36955,unknown function,-
+Koomba-kaat_1_00067,408,phrog_12518,hypothetical protein,37705,38112,unknown function,-
+Koomba-kaat_1_00068,282,phrog_1709,hypothetical protein,38940,39221,unknown function,-
+Koomba-kaat_1_00069,624,phrog_923,hypothetical protein,39348,39971,unknown function,-
+Koomba-kaat_1_00070,309,phrog_13773,hypothetical protein,40081,40389,unknown function,-
+Koomba-kaat_1_00071,210,phrog_21987,hypothetical protein,40392,40601,unknown function,-
+Koomba-kaat_1_00072,747,phrog_24081,hypothetical protein,40647,41393,unknown function,-
+Koomba-kaat_1_00073,360,phrog_12588,hypothetical protein,41413,41772,unknown function,-
+Koomba-kaat_1_00074,402,phrog_1486,membrane protein,41798,42199,"moron, auxiliary metabolic gene and host takeover",-
+Koomba-kaat_1_00075,309,phrog_9163,hypothetical protein,42347,42655,unknown function,-
+Koomba-kaat_1_00076,339,phrog_18429,hypothetical protein,42655,42993,unknown function,-
+Koomba-kaat_1_00077,339,phrog_16583,hypothetical protein,43128,43466,unknown function,-
+Koomba-kaat_1_00078,201,phrog_17940,hypothetical protein,43629,43829,unknown function,-
+Koomba-kaat_1_00079,240,phrog_6981,hypothetical protein,43830,44069,unknown function,-
+Koomba-kaat_1_00080,186,phrog_3204,hypothetical protein,44135,44320,unknown function,-
+Koomba-kaat_1_00081,207,phrog_13453,nuclease,44323,44529,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00082,222,phrog_16365,hypothetical protein,44566,44787,unknown function,-
+Koomba-kaat_1_00083,402,phrog_467,hypothetical protein,44913,45314,unknown function,-
+Koomba-kaat_1_00084,624,phrog_4538,hypothetical protein,45391,46014,unknown function,-
+Koomba-kaat_1_00085,546,phrog_9084,homing endonuclease,46810,47355,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00086,297,phrog_19178,hypothetical protein,47547,47843,unknown function,-
+Koomba-kaat_1_00087,315,phrog_13526,hypothetical protein,47865,48179,unknown function,-
+Koomba-kaat_1_00088,732,phrog_923,hypothetical protein,48285,49016,unknown function,-
+Koomba-kaat_1_00089,402,phrog_17473,hypothetical protein,49033,49434,unknown function,-
+Koomba-kaat_1_00090,258,phrog_13842,hypothetical protein,49428,49685,unknown function,-
+Koomba-kaat_1_00091,720,phrog_923,hypothetical protein,49672,50391,unknown function,-
+Koomba-kaat_1_00092,207,phrog_3453,hypothetical protein,50391,50597,unknown function,-
+Koomba-kaat_1_00093,552,phrog_11752,hypothetical protein,50603,51154,unknown function,-
+Koomba-kaat_1_00094,657,phrog_923,hypothetical protein,51173,51829,unknown function,-
+Koomba-kaat_1_00095,495,phrog_13381,hypothetical protein,51852,52346,unknown function,-
+Koomba-kaat_1_00096,246,phrog_13794,hypothetical protein,52481,52726,unknown function,-
+Koomba-kaat_1_00097,315,phrog_3143,hypothetical protein,52729,53043,unknown function,-
+Koomba-kaat_1_00098,294,phrog_2988,hypothetical protein,53107,53400,unknown function,-
+Koomba-kaat_1_00099,285,phrog_3128,hypothetical protein,53413,53697,unknown function,-
+Koomba-kaat_1_00100,264,phrog_13266,hypothetical protein,53698,53961,unknown function,-
+Koomba-kaat_1_00101,261,phrog_3157,hypothetical protein,53971,54231,unknown function,-
+Koomba-kaat_1_00102,399,phrog_2863,hypothetical protein,54365,54763,unknown function,-
+Koomba-kaat_1_00103,636,phrog_2726,hypothetical protein,54799,55434,unknown function,-
+Koomba-kaat_1_00104,438,phrog_1303,DNA binding protein,55445,55882,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00105,459,phrog_1104,virion structural protein,55947,56405,head and packaging,-
+Koomba-kaat_1_00106,732,phrog_1007,hypothetical protein,56423,57154,unknown function,-
+Koomba-kaat_1_00107,855,phrog_1113,hypothetical protein,57527,58381,unknown function,-
+Koomba-kaat_1_00108,507,phrog_2356,hypothetical protein,58381,58887,unknown function,-
+Koomba-kaat_1_00109,762,phrog_984,hypothetical protein,58868,59629,unknown function,-
+Koomba-kaat_1_00110,534,phrog_1080,hypothetical protein,59622,60155,unknown function,-
+Koomba-kaat_1_00111,330,phrog_2892,hypothetical protein,60228,60557,unknown function,-
+Koomba-kaat_1_00112,1254,phrog_284,exonuclease,60569,61822,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00113,771,phrog_2721,hypothetical protein,61815,62585,unknown function,-
+Koomba-kaat_1_00114,255,phrog_2673,hypothetical protein,62585,62839,unknown function,-
+Koomba-kaat_1_00115,213,phrog_341,major tail protein,62936,63148,tail,-
+Koomba-kaat_1_00116,513,phrog_341,major tail protein,63165,63677,tail,-
+Koomba-kaat_1_00117,750,phrog_1240,Ig domain containing protein,63699,64448,other,-
+Koomba-kaat_1_00118,660,phrog_1025,RNA polymerase sigma factor,64435,65094,transcription regulation,-
+Koomba-kaat_1_00119,354,phrog_1089,hypothetical protein,65081,65434,unknown function,-
+Koomba-kaat_1_00120,1026,phrog_97,UvsX-like recombinase,65427,66452,other,-
+Koomba-kaat_1_00121,234,phrog_8290,"RecA or Sak4, length ?",66686,66919,other,-
+Koomba-kaat_1_00122,1170,phrog_2672,hypothetical protein,66982,68151,unknown function,-
+Koomba-kaat_1_00123,369,phrog_24838,hypothetical protein,68233,68601,unknown function,-
+Koomba-kaat_1_00124,483,phrog_1069,hypothetical protein,68617,69099,unknown function,-
+Koomba-kaat_1_00125,657,phrog_5995,DNA polymerase,69124,69780,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00126,645,phrog_2081,HNH endonuclease,70004,70648,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00127,3750,phrog_4008,DNA polymerase,70891,74640,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00128,303,phrog_379,DNA binding protein,74717,75019,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00129,603,phrog_1054,hypothetical protein,75028,75630,unknown function,-
+Koomba-kaat_1_00130,321,nan,hypothetical protein,75838,76158,,-
+Koomba-kaat_1_00131,327,phrog_2797,hypothetical protein,76142,76468,unknown function,-
+Koomba-kaat_1_00132,2652,phrog_12229,ribonucleotide reductase,76481,79132,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00133,1338,phrog_86,ribonucleoside diphosphate reductase small subunit,79148,80485,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00134,609,phrog_244,RusA-like Holliday junction resolvase,80500,81108,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00135,462,phrog_1095,hypothetical protein,81098,81559,unknown function,-
+Koomba-kaat_1_00136,309,phrog_1291,hypothetical protein,81559,81867,unknown function,-
+Koomba-kaat_1_00137,1077,phrog_47,DNA primase,81945,83021,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00138,594,phrog_1070,anti-sigma factor,83035,83628,"moron, auxiliary metabolic gene and host takeover",-
+Koomba-kaat_1_00139,1935,phrog_77,SbcC-like subunit of palindrome specific endonuclease,83612,85546,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00140,267,phrog_2773,hypothetical protein,85539,85805,unknown function,-
+Koomba-kaat_1_00141,1032,phrog_100,SbcD-like subunit of palindrome specific endonuclease,85807,86838,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00142,690,phrog_67,DNA methyltransferase,86908,87597,other,-
+Koomba-kaat_1_00143,249,phrog_9725,hypothetical protein,87597,87845,unknown function,-
+Koomba-kaat_1_00144,477,phrog_67,DNA methyltransferase,87814,88290,other,-
+Koomba-kaat_1_00145,111,phrog_6025,DNA methyltransferase,88424,88534,other,-
+Koomba-kaat_1_00146,246,phrog_12198,hypothetical protein,88544,88789,unknown function,-
+Koomba-kaat_1_00147,258,phrog_11461,hypothetical protein,88859,89116,unknown function,-
+Koomba-kaat_1_00148,1440,phrog_19,DnaB-like replicative helicase,89116,90555,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00149,1587,phrog_1098,HTH DNA binding protein,90548,92134,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00150,1314,phrog_9690,DNA helicase,92144,93457,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00151,456,phrog_14619,DNA helicase,93687,94142,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00152,1365,phrog_2691,tail fiber protein,94228,95592,tail,-
+Koomba-kaat_1_00153,357,phrog_2671,tail fiber protein,95598,95954,tail,-
+Koomba-kaat_1_00154,1914,phrog_2665,virion structural protein,95970,97883,head and packaging,-
+Koomba-kaat_1_00155,171,phrog_1074,hypothetical protein,97873,98043,unknown function,-
+Koomba-kaat_1_00156,3459,phrog_877,hypothetical protein,98095,101553,unknown function,-
+Koomba-kaat_1_00157,522,phrog_1394,virion structural protein,101573,102094,head and packaging,-
+Koomba-kaat_1_00158,2703,phrog_2386,virion structural protein,102198,104900,head and packaging,-
+Koomba-kaat_1_00159,1047,phrog_6,baseplate protein,104911,105957,tail,-
+Koomba-kaat_1_00160,705,phrog_975,baseplate protein,105972,106676,tail,-
+Koomba-kaat_1_00161,522,phrog_1073,hypothetical protein,106676,107197,unknown function,-
+Koomba-kaat_1_00162,852,phrog_1011,virion structural protein,107197,108048,head and packaging,-
+Koomba-kaat_1_00163,2457,phrog_2204,glycerophosphoryl diester phosphodiesterase,108160,110616,other,-
+Koomba-kaat_1_00164,891,phrog_2677,tail protein with lysin activity,110610,111500,tail,-
+Koomba-kaat_1_00165,2433,phrog_1015,tail protein with lysin activity,111506,113938,tail,-
+Koomba-kaat_1_00166,825,phrog_8949,hypothetical protein,113990,114814,unknown function,-
+Koomba-kaat_1_00167,870,phrog_10341,endolysin,114873,115742,lysis,-
+Koomba-kaat_1_00168,2994,phrog_1047,tail associated lysin,116185,119178,tail,-
+Koomba-kaat_1_00169,444,phrog_1316,RNA polymerase beta subunit,119232,119675,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00170,417,phrog_1038,tail assembly chaperone,119782,120198,tail,-
+Koomba-kaat_1_00171,309,phrog_2754,virion structural protein,120298,120606,head and packaging,-
+Koomba-kaat_1_00172,450,phrog_1905,hypothetical protein,120663,121112,unknown function,-
+Koomba-kaat_1_00173,144,phrog_2701,hypothetical protein,121151,121294,unknown function,-
+Koomba-kaat_1_00174,987,phrog_7140,intron encoded nuclease,121342,122328,"DNA, RNA and nucleotide metabolism",-
+Koomba-kaat_1_00175,360,phrog_985,virion structural protein,123363,123722,head and packaging,-
+Koomba-kaat_1_00176,1761,phrog_279,tail sheath,123785,125545,tail,-
+Koomba-kaat_1_00177,207,phrog_1151,hypothetical protein,125568,125774,unknown function,-
+Koomba-kaat_1_00178,837,phrog_1000,hypothetical protein,125774,126610,unknown function,-
+Koomba-kaat_1_00179,621,phrog_1127,hypothetical protein,126629,127249,unknown function,-
+Koomba-kaat_1_00180,876,phrog_1004,virion structural protein,127249,128124,head and packaging,-
+Koomba-kaat_1_00181,909,phrog_772,tail fiber protein,128142,129050,tail,-
+Koomba-kaat_1_00182,234,phrog_1205,hypothetical protein,129060,129293,unknown function,-
+Koomba-kaat_1_00183,1392,phrog_752,major head protein,129397,130788,head and packaging,-
+Koomba-kaat_1_00184,951,phrog_1133,hypothetical protein,130871,131821,unknown function,-
+Koomba-kaat_1_00185,774,phrog_1028,head maturation protease,131835,132608,head and packaging,-
+Koomba-kaat_1_00186,1686,phrog_15361,portal protein,132776,134461,head and packaging,-
+Koomba-kaat_1_00187,366,phrog_1108,portal protein,134466,134831,head and packaging,-
+Koomba-kaat_1_00188,360,phrog_3937,hypothetical protein,134837,135196,unknown function,-

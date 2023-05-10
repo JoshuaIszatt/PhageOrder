@@ -1,0 +1,127 @@
+[08:45:42] This is prokka 1.14.6
+[08:45:42] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[08:45:42] Homepage is https://github.com/tseemann/prokka
+[08:45:42] Local time is Wed May 10 08:45:42 2023
+[08:45:42] You are not telling me who you are!
+[08:45:42] Operating system is linux
+[08:45:42] You have BioPerl 1.7.8
+[08:45:42] System has 32 cores.
+[08:45:42] Will use maximum of 8 cores.
+[08:45:42] Annotating as >>> Viruses <<<
+[08:45:42] Enabling options to ensure Genbank/ENA/DDJB submission compliance.
+[08:45:42] Creating new output folder: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed
+[08:45:42] Running: mkdir -p \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed
+[08:45:42] Using filename prefix: Koomba-kaat_1.XXX
+[08:45:42] Setting HMMER_NCPU=1
+[08:45:42] Writing log to: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.log
+[08:45:42] Command: /opt/conda/envs/lab/bin/prokka /lab/output/Koomba-kaat_1/reversed.fasta --hmms /opt/conda/envs/lab/db/hmm/all_phrogs.hmm --outdir /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed --addgenes --kingdom Viruses --gcode 11 --locustag Koomba-kaat_1 --prefix Koomba-kaat_1 --compliant
+[08:45:42] Appending to PATH: /opt/conda/envs/lab/bin
+[08:45:42] Looking for 'aragorn' - found /opt/conda/envs/lab/bin/aragorn
+[08:45:42] Determined aragorn version is 001002 from 'ARAGORN v1.2.41 Dean Laslett'
+[08:45:42] Looking for 'barrnap' - found /opt/conda/envs/lab/bin/barrnap
+[08:45:42] Determined barrnap version is 000009 from 'barrnap 0.9'
+[08:45:42] Looking for 'blastp' - found /opt/conda/envs/lab/bin/blastp
+[08:45:42] Determined blastp version is 002012 from 'blastp: 2.12.0+'
+[08:45:42] Looking for 'cmpress' - found /opt/conda/envs/lab/bin/cmpress
+[08:45:42] Determined cmpress version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[08:45:42] Looking for 'cmscan' - found /opt/conda/envs/lab/bin/cmscan
+[08:45:42] Determined cmscan version is 001001 from '# INFERNAL 1.1.4 (Dec 2020)'
+[08:45:42] Looking for 'egrep' - found /bin/egrep
+[08:45:42] Looking for 'find' - found /usr/bin/find
+[08:45:42] Looking for 'grep' - found /bin/grep
+[08:45:42] Looking for 'hmmpress' - found /opt/conda/envs/lab/bin/hmmpress
+[08:45:42] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[08:45:42] Looking for 'hmmscan' - found /opt/conda/envs/lab/bin/hmmscan
+[08:45:42] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[08:45:42] Looking for 'java' - found /opt/conda/envs/lab/bin/java
+[08:45:42] Looking for 'makeblastdb' - found /opt/conda/envs/lab/bin/makeblastdb
+[08:45:42] Determined makeblastdb version is 002012 from 'makeblastdb: 2.12.0+'
+[08:45:42] Looking for 'minced' - found /opt/conda/envs/lab/bin/minced
+[08:45:42] Determined minced version is 004002 from 'minced 0.4.2'
+[08:45:42] Looking for 'parallel' - found /opt/conda/envs/lab/bin/parallel
+[08:45:42] Determined parallel version is 20230322 from 'GNU parallel 20230322'
+[08:45:42] Looking for 'prodigal' - found /opt/conda/envs/lab/bin/prodigal
+[08:45:42] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[08:45:42] Looking for 'prokka-genbank_to_fasta_db' - found /opt/conda/envs/lab/bin/prokka-genbank_to_fasta_db
+[08:45:42] Looking for 'sed' - found /bin/sed
+[08:45:42] Looking for 'tbl2asn' - found /opt/conda/envs/lab/bin/tbl2asn
+[08:45:42] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[08:45:42] Using genetic code table 11.
+[08:45:42] Loading and checking input file: /lab/output/Koomba-kaat_1/reversed.fasta
+[08:45:42] Wrote 1 contigs totalling 135469 bp.
+[08:45:42] Predicting tRNAs and tmRNAs
+[08:45:42] Running: aragorn -l -gc11  -w \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.fna
+[08:45:42] Found 0 tRNAs
+[08:45:42] Disabling rRNA search: --kingdom=Viruses or --norrna=0
+[08:45:42] Skipping ncRNA search, enable with --rfam if desired.
+[08:45:42] Total of 0 tRNA + rRNA features
+[08:45:42] Searching for CRISPR repeats
+[08:45:42] Found 0 CRISPRs
+[08:45:42] Predicting coding sequences
+[08:45:42] Contigs total 135469 bp, so using single mode
+[08:45:42] Running: prodigal -i \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.fna -c -m -g 11 -p single -f sco -q
+[08:45:42] Found 188 CDS
+[08:45:42] Connecting features back to sequences
+[08:45:42] Not using genus-specific database. Try --usegenus to enable it.
+[08:45:42] Preparing user-supplied primary HMMER annotation source: /opt/conda/envs/lab/db/hmm/all_phrogs.hmm
+[08:45:42] Using /inference source as 'all_phrogs'
+[08:45:42] Annotating CDS, please be patient.
+[08:45:42] Will use 8 CPUs for similarity searching.
+[08:45:42] There are still 188 unannotated CDS left (started with 188)
+[08:45:42] Will use hmmer3 to search against /opt/conda/envs/lab/db/hmm/all_phrogs.hmm with 8 CPUs
+[08:45:42] Running: cat \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.all_phrogs\.hmm\.tmp\.5492\.faa | parallel --gnu --plain -j 8 --block 2549 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /opt/conda/envs/lab/db/hmm/all_phrogs.hmm /dev/stdin > \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.all_phrogs\.hmm\.tmp\.5492\.hmmer3 2> /dev/null
+[08:46:01] Modify product: ribosome associated inhibitor A; zinc finger domain => ribosome associated inhibitor A; zinc finger domain protein
+[08:46:01] Cleaned 1 /product names
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.all_phrogs.hmm.tmp.5492.faa
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.all_phrogs.hmm.tmp.5492.hmmer3
+[08:46:01] There are still 6 unannotated CDS left (started with 188)
+[08:46:01] Will use blast to search against /opt/conda/envs/lab/db/kingdom/Viruses/sprot with 8 CPUs
+[08:46:01] Running: cat \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.sprot\.tmp\.5492\.faa | parallel --gnu --plain -j 8 --block 23 --recstart '>' --pipe blastp -query - -db /opt/conda/envs/lab/db/kingdom/Viruses/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.sprot\.tmp\.5492\.blast 2> /dev/null
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.sprot.tmp.5492.faa
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.sprot.tmp.5492.blast
+[08:46:01] Labelling remaining 6 proteins as 'hypothetical protein'
+[08:46:01] Possible /pseudo 'portal protein' at gnl|Prokka|Koomba-kaat_1_1 position 1009
+[08:46:01] Possible /pseudo 'tail protein with lysin activity' at gnl|Prokka|Koomba-kaat_1_1 position 23970
+[08:46:01] Possible /pseudo 'baseplate protein' at gnl|Prokka|Koomba-kaat_1_1 position 29513
+[08:46:01] Possible /pseudo 'virion structural protein' at gnl|Prokka|Koomba-kaat_1_1 position 33376
+[08:46:01] Possible /pseudo 'tail fiber protein' at gnl|Prokka|Koomba-kaat_1_1 position 39878
+[08:46:01] Possible /pseudo 'DNA helicase' at gnl|Prokka|Koomba-kaat_1_1 position 42013
+[08:46:01] Possible /pseudo 'DNA methyltransferase' at gnl|Prokka|Koomba-kaat_1_1 position 47180
+[08:46:01] Possible /pseudo 'major tail protein' at gnl|Prokka|Koomba-kaat_1_1 position 72322
+[08:46:01] Possible /pseudo 'endolysin' at gnl|Prokka|Koomba-kaat_1_1 position 123954
+[08:46:01] Possible /pseudo 'terminase large subunit' at gnl|Prokka|Koomba-kaat_1_1 position 129990
+[08:46:01] Found 0 unique /gene codes.
+[08:46:01] Fixed 0 colliding /gene names.
+[08:46:01] Adding /locus_tag identifiers
+[08:46:01] Assigned 188 locus_tags to CDS and RNA features.
+[08:46:01] Writing outputs to /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/
+[08:46:01] Generating annotation statistics file
+[08:46:01] Generating Genbank and Sequin files
+[08:46:01] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.err -i \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.fsa 2> /dev/null
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/errorsummary.val
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.dr
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.fixedproducts
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.ecn
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.val
+[08:46:01] Repairing broken .GBK output that tbl2asn produces...
+[08:46:01] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.gbf > \/lab\/output\/Koomba\-kaat_1\/Koomba\-kaat_1_reversed\/Koomba\-kaat_1\.gbk
+[08:46:01] Deleting unwanted file: /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.gbf
+[08:46:01] Output files:
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.gff
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.err
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.tbl
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.log
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.fsa
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.ffn
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.sqn
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.txt
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.tsv
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.gbk
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.fna
+[08:46:01] /lab/output/Koomba-kaat_1/Koomba-kaat_1_reversed/Koomba-kaat_1.faa
+[08:46:01] Annotation finished successfully.
+[08:46:01] Walltime used: 0.32 minutes
+[08:46:01] If you use this result please cite the Prokka paper:
+[08:46:01] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[08:46:01] Type 'prokka --citation' for more details.
+[08:46:01] Share and enjoy!

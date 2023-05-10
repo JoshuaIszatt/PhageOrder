@@ -1,0 +1,637 @@
+Discrepancy Report Results
+
+Summary
+FATAL: BAD_LOCUS_TAG_FORMAT:188 locus tags are incorrectly formatted.
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all unique)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all unique)
+DISC_FEATURE_COUNT:gene: 188 present
+DISC_FEATURE_COUNT:CDS: 188 present
+DISC_COUNT_NUCLEOTIDES:1 nucleotide Bioseqs are present
+OVERLAPPING_GENES:72 genes overlap another gene on the same strand.
+SUSPECT_PRODUCT_NAMES:2 product_names contain suspect phrase or characters
+	FATAL: Possible parsing error or incorrect formatting; remove inappropriate symbols
+		1 features contains '?'
+	Use short product name instead of descriptive phrase
+		1 features contains ';'
+FATAL: EC_NUMBER_ON_UNKNOWN_PROTEIN:102 protein features have an EC number and a protein name of 'unknown protein' or 'hypothetical protein'
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:1 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:7 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:1 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:1 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:1 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:1 sequences do not include structured comments.
+MISSING_PROJECT:189 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+FATAL: DiscRep_ALL:BAD_LOCUS_TAG_FORMAT::188 locus tags are incorrectly formatted.
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00001	Koomba-kaat_1_1:150-383	Koomba-kaat_1_00001
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00002	Koomba-kaat_1_1:c1222-743	Koomba-kaat_1_00002
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00003	Koomba-kaat_1_1:c1391-1215	Koomba-kaat_1_00003
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00004	Koomba-kaat_1_1:c2178-1378	Koomba-kaat_1_00004
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00005	Koomba-kaat_1_1:c2355-2194	Koomba-kaat_1_00005
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00006	Koomba-kaat_1_1:c3352-2432	Koomba-kaat_1_00006
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00007	Koomba-kaat_1_1:c4767-3574	Koomba-kaat_1_00007
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00008	Koomba-kaat_1_1:c5073-4975	Koomba-kaat_1_00008
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00009	Koomba-kaat_1_1:c5480-5313	Koomba-kaat_1_00009
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00010	Koomba-kaat_1_1:c6110-5742	Koomba-kaat_1_00010
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00011	Koomba-kaat_1_1:c6540-6127	Koomba-kaat_1_00011
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00012	Koomba-kaat_1_1:c6818-6537	Koomba-kaat_1_00012
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00013	Koomba-kaat_1_1:c7182-6796	Koomba-kaat_1_00013
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00014	Koomba-kaat_1_1:7626-7958	Koomba-kaat_1_00014
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00015	Koomba-kaat_1_1:7965-8297	Koomba-kaat_1_00015
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00016	Koomba-kaat_1_1:8308-8523	Koomba-kaat_1_00016
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00017	Koomba-kaat_1_1:8803-9018	Koomba-kaat_1_00017
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00018	Koomba-kaat_1_1:9830-10018	Koomba-kaat_1_00018
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00019	Koomba-kaat_1_1:10099-10599	Koomba-kaat_1_00019
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00020	Koomba-kaat_1_1:10599-11516	Koomba-kaat_1_00020
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00021	Koomba-kaat_1_1:11530-12288	Koomba-kaat_1_00021
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00022	Koomba-kaat_1_1:12390-12611	Koomba-kaat_1_00022
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00023	Koomba-kaat_1_1:12625-12840	Koomba-kaat_1_00023
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00024	Koomba-kaat_1_1:12833-13471	Koomba-kaat_1_00024
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00025	Koomba-kaat_1_1:13485-13673	Koomba-kaat_1_00025
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00026	Koomba-kaat_1_1:13666-14091	Koomba-kaat_1_00026
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00027	Koomba-kaat_1_1:14103-14366	Koomba-kaat_1_00027
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00028	Koomba-kaat_1_1:14379-14981	Koomba-kaat_1_00028
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00029	Koomba-kaat_1_1:15021-15419	Koomba-kaat_1_00029
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00030	Koomba-kaat_1_1:15574-17874	Koomba-kaat_1_00030
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00031	Koomba-kaat_1_1:17876-18469	Koomba-kaat_1_00031
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00032	Koomba-kaat_1_1:18462-19085	Koomba-kaat_1_00032
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00033	Koomba-kaat_1_1:19060-19233	Koomba-kaat_1_00033
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00034	Koomba-kaat_1_1:19247-19510	Koomba-kaat_1_00034
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00035	Koomba-kaat_1_1:19589-21628	Koomba-kaat_1_00035
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00036	Koomba-kaat_1_1:21628-21789	Koomba-kaat_1_00036
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00037	Koomba-kaat_1_1:21789-21974	Koomba-kaat_1_00037
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00038	Koomba-kaat_1_1:22093-22509	Koomba-kaat_1_00038
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00039	Koomba-kaat_1_1:22496-22819	Koomba-kaat_1_00039
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00040	Koomba-kaat_1_1:22816-22956	Koomba-kaat_1_00040
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00041	Koomba-kaat_1_1:23024-23203	Koomba-kaat_1_00041
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00042	Koomba-kaat_1_1:23614-26832	Koomba-kaat_1_00042
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00043	Koomba-kaat_1_1:26851-27213	Koomba-kaat_1_00043
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00044	Koomba-kaat_1_1:27596-28381	Koomba-kaat_1_00044
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00045	Koomba-kaat_1_1:28374-28598	Koomba-kaat_1_00045
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00046	Koomba-kaat_1_1:28619-29011	Koomba-kaat_1_00046
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00047	Koomba-kaat_1_1:29028-29588	Koomba-kaat_1_00047
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00048	Koomba-kaat_1_1:29715-30245	Koomba-kaat_1_00048
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00049	Koomba-kaat_1_1:30257-30661	Koomba-kaat_1_00049
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00050	Koomba-kaat_1_1:30661-30849	Koomba-kaat_1_00050
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00051	Koomba-kaat_1_1:30849-31241	Koomba-kaat_1_00051
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00052	Koomba-kaat_1_1:31244-31636	Koomba-kaat_1_00052
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00053	Koomba-kaat_1_1:31639-32022	Koomba-kaat_1_00053
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00054	Koomba-kaat_1_1:32022-32543	Koomba-kaat_1_00054
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00055	Koomba-kaat_1_1:32605-33003	Koomba-kaat_1_00055
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00056	Koomba-kaat_1_1:33011-33190	Koomba-kaat_1_00056
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00057	Koomba-kaat_1_1:33148-33249	Koomba-kaat_1_00057
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00058	Koomba-kaat_1_1:33268-33834	Koomba-kaat_1_00058
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00059	Koomba-kaat_1_1:c34813-34469	Koomba-kaat_1_00059
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00060	Koomba-kaat_1_1:c35142-34918	Koomba-kaat_1_00060
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00061	Koomba-kaat_1_1:c35497-35156	Koomba-kaat_1_00061
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00062	Koomba-kaat_1_1:c35895-35749	Koomba-kaat_1_00062
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00063	Koomba-kaat_1_1:c36096-35950	Koomba-kaat_1_00063
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00064	Koomba-kaat_1_1:c36411-36178	Koomba-kaat_1_00064
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00065	Koomba-kaat_1_1:c36568-36413	Koomba-kaat_1_00065
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00066	Koomba-kaat_1_1:c36955-36641	Koomba-kaat_1_00066
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00067	Koomba-kaat_1_1:c38112-37705	Koomba-kaat_1_00067
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00068	Koomba-kaat_1_1:c39221-38940	Koomba-kaat_1_00068
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00069	Koomba-kaat_1_1:c39971-39348	Koomba-kaat_1_00069
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00070	Koomba-kaat_1_1:c40389-40081	Koomba-kaat_1_00070
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00071	Koomba-kaat_1_1:c40601-40392	Koomba-kaat_1_00071
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00072	Koomba-kaat_1_1:c41393-40647	Koomba-kaat_1_00072
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00073	Koomba-kaat_1_1:c41772-41413	Koomba-kaat_1_00073
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00074	Koomba-kaat_1_1:c42199-41798	Koomba-kaat_1_00074
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00075	Koomba-kaat_1_1:c42655-42347	Koomba-kaat_1_00075
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00076	Koomba-kaat_1_1:c42993-42655	Koomba-kaat_1_00076
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00077	Koomba-kaat_1_1:c43466-43128	Koomba-kaat_1_00077
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00078	Koomba-kaat_1_1:c43829-43629	Koomba-kaat_1_00078
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00079	Koomba-kaat_1_1:c44069-43830	Koomba-kaat_1_00079
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00080	Koomba-kaat_1_1:c44320-44135	Koomba-kaat_1_00080
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00081	Koomba-kaat_1_1:c44529-44323	Koomba-kaat_1_00081
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00082	Koomba-kaat_1_1:c44787-44566	Koomba-kaat_1_00082
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00083	Koomba-kaat_1_1:c45314-44913	Koomba-kaat_1_00083
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00084	Koomba-kaat_1_1:c46014-45391	Koomba-kaat_1_00084
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00085	Koomba-kaat_1_1:c47355-46810	Koomba-kaat_1_00085
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00086	Koomba-kaat_1_1:c47843-47547	Koomba-kaat_1_00086
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00087	Koomba-kaat_1_1:c48179-47865	Koomba-kaat_1_00087
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00088	Koomba-kaat_1_1:c49016-48285	Koomba-kaat_1_00088
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00089	Koomba-kaat_1_1:c49434-49033	Koomba-kaat_1_00089
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00090	Koomba-kaat_1_1:c49685-49428	Koomba-kaat_1_00090
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00091	Koomba-kaat_1_1:c50391-49672	Koomba-kaat_1_00091
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00092	Koomba-kaat_1_1:c50597-50391	Koomba-kaat_1_00092
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00093	Koomba-kaat_1_1:c51154-50603	Koomba-kaat_1_00093
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00094	Koomba-kaat_1_1:c51829-51173	Koomba-kaat_1_00094
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00095	Koomba-kaat_1_1:c52346-51852	Koomba-kaat_1_00095
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00096	Koomba-kaat_1_1:c52726-52481	Koomba-kaat_1_00096
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00097	Koomba-kaat_1_1:c53043-52729	Koomba-kaat_1_00097
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00098	Koomba-kaat_1_1:c53400-53107	Koomba-kaat_1_00098
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00099	Koomba-kaat_1_1:c53697-53413	Koomba-kaat_1_00099
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00100	Koomba-kaat_1_1:c53961-53698	Koomba-kaat_1_00100
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00101	Koomba-kaat_1_1:c54231-53971	Koomba-kaat_1_00101
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00102	Koomba-kaat_1_1:c54763-54365	Koomba-kaat_1_00102
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00103	Koomba-kaat_1_1:c55434-54799	Koomba-kaat_1_00103
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00104	Koomba-kaat_1_1:c55882-55445	Koomba-kaat_1_00104
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00105	Koomba-kaat_1_1:c56405-55947	Koomba-kaat_1_00105
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00106	Koomba-kaat_1_1:c57154-56423	Koomba-kaat_1_00106
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00107	Koomba-kaat_1_1:c58381-57527	Koomba-kaat_1_00107
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00108	Koomba-kaat_1_1:c58887-58381	Koomba-kaat_1_00108
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00109	Koomba-kaat_1_1:c59629-58868	Koomba-kaat_1_00109
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00110	Koomba-kaat_1_1:c60155-59622	Koomba-kaat_1_00110
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00111	Koomba-kaat_1_1:c60557-60228	Koomba-kaat_1_00111
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00112	Koomba-kaat_1_1:c61822-60569	Koomba-kaat_1_00112
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00113	Koomba-kaat_1_1:c62585-61815	Koomba-kaat_1_00113
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00114	Koomba-kaat_1_1:c62839-62585	Koomba-kaat_1_00114
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00115	Koomba-kaat_1_1:c63148-62936	Koomba-kaat_1_00115
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00116	Koomba-kaat_1_1:c63677-63165	Koomba-kaat_1_00116
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00117	Koomba-kaat_1_1:c64448-63699	Koomba-kaat_1_00117
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00118	Koomba-kaat_1_1:c65094-64435	Koomba-kaat_1_00118
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00119	Koomba-kaat_1_1:c65434-65081	Koomba-kaat_1_00119
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00120	Koomba-kaat_1_1:c66452-65427	Koomba-kaat_1_00120
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00121	Koomba-kaat_1_1:c66919-66686	Koomba-kaat_1_00121
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00122	Koomba-kaat_1_1:c68151-66982	Koomba-kaat_1_00122
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00123	Koomba-kaat_1_1:c68601-68233	Koomba-kaat_1_00123
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00124	Koomba-kaat_1_1:c69099-68617	Koomba-kaat_1_00124
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00125	Koomba-kaat_1_1:c69780-69124	Koomba-kaat_1_00125
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00126	Koomba-kaat_1_1:c70648-70004	Koomba-kaat_1_00126
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00127	Koomba-kaat_1_1:c74640-70891	Koomba-kaat_1_00127
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00128	Koomba-kaat_1_1:c75019-74717	Koomba-kaat_1_00128
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00129	Koomba-kaat_1_1:c75630-75028	Koomba-kaat_1_00129
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00130	Koomba-kaat_1_1:c76158-75838	Koomba-kaat_1_00130
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00131	Koomba-kaat_1_1:c76468-76142	Koomba-kaat_1_00131
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00132	Koomba-kaat_1_1:c79132-76481	Koomba-kaat_1_00132
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00133	Koomba-kaat_1_1:c80485-79148	Koomba-kaat_1_00133
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00134	Koomba-kaat_1_1:c81108-80500	Koomba-kaat_1_00134
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00135	Koomba-kaat_1_1:c81559-81098	Koomba-kaat_1_00135
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00136	Koomba-kaat_1_1:c81867-81559	Koomba-kaat_1_00136
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00137	Koomba-kaat_1_1:c83021-81945	Koomba-kaat_1_00137
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00138	Koomba-kaat_1_1:c83628-83035	Koomba-kaat_1_00138
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00139	Koomba-kaat_1_1:c85546-83612	Koomba-kaat_1_00139
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00140	Koomba-kaat_1_1:c85805-85539	Koomba-kaat_1_00140
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00141	Koomba-kaat_1_1:c86838-85807	Koomba-kaat_1_00141
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00142	Koomba-kaat_1_1:c87597-86908	Koomba-kaat_1_00142
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00143	Koomba-kaat_1_1:c87845-87597	Koomba-kaat_1_00143
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00144	Koomba-kaat_1_1:c88290-87814	Koomba-kaat_1_00144
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00145	Koomba-kaat_1_1:c88534-88424	Koomba-kaat_1_00145
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00146	Koomba-kaat_1_1:c88789-88544	Koomba-kaat_1_00146
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00147	Koomba-kaat_1_1:c89116-88859	Koomba-kaat_1_00147
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00148	Koomba-kaat_1_1:c90555-89116	Koomba-kaat_1_00148
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00149	Koomba-kaat_1_1:c92134-90548	Koomba-kaat_1_00149
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00150	Koomba-kaat_1_1:c93457-92144	Koomba-kaat_1_00150
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00151	Koomba-kaat_1_1:c94142-93687	Koomba-kaat_1_00151
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00152	Koomba-kaat_1_1:c95592-94228	Koomba-kaat_1_00152
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00153	Koomba-kaat_1_1:c95954-95598	Koomba-kaat_1_00153
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00154	Koomba-kaat_1_1:c97883-95970	Koomba-kaat_1_00154
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00155	Koomba-kaat_1_1:c98043-97873	Koomba-kaat_1_00155
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00156	Koomba-kaat_1_1:c101553-98095	Koomba-kaat_1_00156
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00157	Koomba-kaat_1_1:c102094-101573	Koomba-kaat_1_00157
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00158	Koomba-kaat_1_1:c104900-102198	Koomba-kaat_1_00158
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00159	Koomba-kaat_1_1:c105957-104911	Koomba-kaat_1_00159
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00160	Koomba-kaat_1_1:c106676-105972	Koomba-kaat_1_00160
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00161	Koomba-kaat_1_1:c107197-106676	Koomba-kaat_1_00161
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00162	Koomba-kaat_1_1:c108048-107197	Koomba-kaat_1_00162
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00163	Koomba-kaat_1_1:c110616-108160	Koomba-kaat_1_00163
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00164	Koomba-kaat_1_1:c111500-110610	Koomba-kaat_1_00164
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00165	Koomba-kaat_1_1:c113938-111506	Koomba-kaat_1_00165
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00166	Koomba-kaat_1_1:c114814-113990	Koomba-kaat_1_00166
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00167	Koomba-kaat_1_1:c115742-114873	Koomba-kaat_1_00167
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00168	Koomba-kaat_1_1:c119178-116185	Koomba-kaat_1_00168
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00169	Koomba-kaat_1_1:c119675-119232	Koomba-kaat_1_00169
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00170	Koomba-kaat_1_1:c120198-119782	Koomba-kaat_1_00170
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00171	Koomba-kaat_1_1:c120606-120298	Koomba-kaat_1_00171
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00172	Koomba-kaat_1_1:c121112-120663	Koomba-kaat_1_00172
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00173	Koomba-kaat_1_1:c121294-121151	Koomba-kaat_1_00173
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00174	Koomba-kaat_1_1:c122328-121342	Koomba-kaat_1_00174
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00175	Koomba-kaat_1_1:c123722-123363	Koomba-kaat_1_00175
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00176	Koomba-kaat_1_1:c125545-123785	Koomba-kaat_1_00176
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00177	Koomba-kaat_1_1:c125774-125568	Koomba-kaat_1_00177
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00178	Koomba-kaat_1_1:c126610-125774	Koomba-kaat_1_00178
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00179	Koomba-kaat_1_1:c127249-126629	Koomba-kaat_1_00179
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00180	Koomba-kaat_1_1:c128124-127249	Koomba-kaat_1_00180
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00181	Koomba-kaat_1_1:c129050-128142	Koomba-kaat_1_00181
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00182	Koomba-kaat_1_1:c129293-129060	Koomba-kaat_1_00182
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00183	Koomba-kaat_1_1:c130788-129397	Koomba-kaat_1_00183
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00184	Koomba-kaat_1_1:c131821-130871	Koomba-kaat_1_00184
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00185	Koomba-kaat_1_1:c132608-131835	Koomba-kaat_1_00185
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00186	Koomba-kaat_1_1:c134461-132776	Koomba-kaat_1_00186
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00187	Koomba-kaat_1_1:c134831-134466	Koomba-kaat_1_00187
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00188	Koomba-kaat_1_1:c135196-134837	Koomba-kaat_1_00188
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all unique)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::1 sources have unique values for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::gene: 188 present
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 188 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::1 nucleotide Bioseqs are present
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_1 (length 135469)
+
+DiscRep_ALL:OVERLAPPING_GENES::72 genes overlap another gene on the same strand.
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00002	Koomba-kaat_1_1:c1222-743	Koomba-kaat_1_00002
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00003	Koomba-kaat_1_1:c1391-1215	Koomba-kaat_1_00003
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00004	Koomba-kaat_1_1:c2178-1378	Koomba-kaat_1_00004
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00011	Koomba-kaat_1_1:c6540-6127	Koomba-kaat_1_00011
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00012	Koomba-kaat_1_1:c6818-6537	Koomba-kaat_1_00012
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00013	Koomba-kaat_1_1:c7182-6796	Koomba-kaat_1_00013
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00019	Koomba-kaat_1_1:10099-10599	Koomba-kaat_1_00019
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00020	Koomba-kaat_1_1:10599-11516	Koomba-kaat_1_00020
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00023	Koomba-kaat_1_1:12625-12840	Koomba-kaat_1_00023
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00024	Koomba-kaat_1_1:12833-13471	Koomba-kaat_1_00024
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00025	Koomba-kaat_1_1:13485-13673	Koomba-kaat_1_00025
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00026	Koomba-kaat_1_1:13666-14091	Koomba-kaat_1_00026
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00031	Koomba-kaat_1_1:17876-18469	Koomba-kaat_1_00031
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00032	Koomba-kaat_1_1:18462-19085	Koomba-kaat_1_00032
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00033	Koomba-kaat_1_1:19060-19233	Koomba-kaat_1_00033
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00035	Koomba-kaat_1_1:19589-21628	Koomba-kaat_1_00035
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00036	Koomba-kaat_1_1:21628-21789	Koomba-kaat_1_00036
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00037	Koomba-kaat_1_1:21789-21974	Koomba-kaat_1_00037
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00038	Koomba-kaat_1_1:22093-22509	Koomba-kaat_1_00038
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00039	Koomba-kaat_1_1:22496-22819	Koomba-kaat_1_00039
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00040	Koomba-kaat_1_1:22816-22956	Koomba-kaat_1_00040
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00044	Koomba-kaat_1_1:27596-28381	Koomba-kaat_1_00044
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00045	Koomba-kaat_1_1:28374-28598	Koomba-kaat_1_00045
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00049	Koomba-kaat_1_1:30257-30661	Koomba-kaat_1_00049
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00050	Koomba-kaat_1_1:30661-30849	Koomba-kaat_1_00050
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00051	Koomba-kaat_1_1:30849-31241	Koomba-kaat_1_00051
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00053	Koomba-kaat_1_1:31639-32022	Koomba-kaat_1_00053
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00054	Koomba-kaat_1_1:32022-32543	Koomba-kaat_1_00054
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00056	Koomba-kaat_1_1:33011-33190	Koomba-kaat_1_00056
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00057	Koomba-kaat_1_1:33148-33249	Koomba-kaat_1_00057
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00075	Koomba-kaat_1_1:c42655-42347	Koomba-kaat_1_00075
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00076	Koomba-kaat_1_1:c42993-42655	Koomba-kaat_1_00076
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00089	Koomba-kaat_1_1:c49434-49033	Koomba-kaat_1_00089
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00090	Koomba-kaat_1_1:c49685-49428	Koomba-kaat_1_00090
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00091	Koomba-kaat_1_1:c50391-49672	Koomba-kaat_1_00091
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00092	Koomba-kaat_1_1:c50597-50391	Koomba-kaat_1_00092
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00107	Koomba-kaat_1_1:c58381-57527	Koomba-kaat_1_00107
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00108	Koomba-kaat_1_1:c58887-58381	Koomba-kaat_1_00108
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00109	Koomba-kaat_1_1:c59629-58868	Koomba-kaat_1_00109
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00110	Koomba-kaat_1_1:c60155-59622	Koomba-kaat_1_00110
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00112	Koomba-kaat_1_1:c61822-60569	Koomba-kaat_1_00112
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00113	Koomba-kaat_1_1:c62585-61815	Koomba-kaat_1_00113
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00114	Koomba-kaat_1_1:c62839-62585	Koomba-kaat_1_00114
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00117	Koomba-kaat_1_1:c64448-63699	Koomba-kaat_1_00117
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00118	Koomba-kaat_1_1:c65094-64435	Koomba-kaat_1_00118
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00119	Koomba-kaat_1_1:c65434-65081	Koomba-kaat_1_00119
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00120	Koomba-kaat_1_1:c66452-65427	Koomba-kaat_1_00120
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00130	Koomba-kaat_1_1:c76158-75838	Koomba-kaat_1_00130
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00131	Koomba-kaat_1_1:c76468-76142	Koomba-kaat_1_00131
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00134	Koomba-kaat_1_1:c81108-80500	Koomba-kaat_1_00134
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00135	Koomba-kaat_1_1:c81559-81098	Koomba-kaat_1_00135
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00136	Koomba-kaat_1_1:c81867-81559	Koomba-kaat_1_00136
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00138	Koomba-kaat_1_1:c83628-83035	Koomba-kaat_1_00138
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00139	Koomba-kaat_1_1:c85546-83612	Koomba-kaat_1_00139
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00140	Koomba-kaat_1_1:c85805-85539	Koomba-kaat_1_00140
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00142	Koomba-kaat_1_1:c87597-86908	Koomba-kaat_1_00142
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00143	Koomba-kaat_1_1:c87845-87597	Koomba-kaat_1_00143
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00144	Koomba-kaat_1_1:c88290-87814	Koomba-kaat_1_00144
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00147	Koomba-kaat_1_1:c89116-88859	Koomba-kaat_1_00147
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00148	Koomba-kaat_1_1:c90555-89116	Koomba-kaat_1_00148
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00149	Koomba-kaat_1_1:c92134-90548	Koomba-kaat_1_00149
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00154	Koomba-kaat_1_1:c97883-95970	Koomba-kaat_1_00154
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00155	Koomba-kaat_1_1:c98043-97873	Koomba-kaat_1_00155
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00160	Koomba-kaat_1_1:c106676-105972	Koomba-kaat_1_00160
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00161	Koomba-kaat_1_1:c107197-106676	Koomba-kaat_1_00161
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00162	Koomba-kaat_1_1:c108048-107197	Koomba-kaat_1_00162
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00163	Koomba-kaat_1_1:c110616-108160	Koomba-kaat_1_00163
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00164	Koomba-kaat_1_1:c111500-110610	Koomba-kaat_1_00164
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00177	Koomba-kaat_1_1:c125774-125568	Koomba-kaat_1_00177
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00178	Koomba-kaat_1_1:c126610-125774	Koomba-kaat_1_00178
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00179	Koomba-kaat_1_1:c127249-126629	Koomba-kaat_1_00179
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Gene	Koomba-kaat_1_00180	Koomba-kaat_1_1:c128124-127249	Koomba-kaat_1_00180
+
+DiscRep_ALL:SUSPECT_PRODUCT_NAMES::2 product_names contain suspect phrase or characters
+FATAL: DiscRep_SUB:SUSPECT_PRODUCT_NAMES::Possible  error or incorr incorrect formatting; remove inappropriate symbols
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains '?'
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	RecA or Sak4, length ?	Koomba-kaat_1_1:c66919-66686	Koomba-kaat_1_00121
+
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::Use short product name instead of descriptive phrase
+DiscRep_SUB:SUSPECT_PRODUCT_NAMES::1 features contains ';'
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	ribosome associated inhibitor A; zinc finger domain protein	Koomba-kaat_1_1:8803-9018	Koomba-kaat_1_00017
+
+FATAL: DiscRep_ALL:EC_NUMBER_ON_UNKNOWN_PROTEIN::102 protein features have an EC number and a protein name of 'unknown protein' or 'hypothetical protein'
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c1222-743	Koomba-kaat_1_00002
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c1391-1215	Koomba-kaat_1_00003
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c6818-6537	Koomba-kaat_1_00012
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:7626-7958	Koomba-kaat_1_00014
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:8308-8523	Koomba-kaat_1_00016
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:9830-10018	Koomba-kaat_1_00018
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:12390-12611	Koomba-kaat_1_00022
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:12833-13471	Koomba-kaat_1_00024
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:13485-13673	Koomba-kaat_1_00025
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:14103-14366	Koomba-kaat_1_00027
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:14379-14981	Koomba-kaat_1_00028
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:15021-15419	Koomba-kaat_1_00029
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:18462-19085	Koomba-kaat_1_00032
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:19589-21628	Koomba-kaat_1_00035
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:21628-21789	Koomba-kaat_1_00036
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:21789-21974	Koomba-kaat_1_00037
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:22496-22819	Koomba-kaat_1_00039
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:23024-23203	Koomba-kaat_1_00041
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:23614-26832	Koomba-kaat_1_00042
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:28374-28598	Koomba-kaat_1_00045
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:29028-29588	Koomba-kaat_1_00047
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:29715-30245	Koomba-kaat_1_00048
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:30257-30661	Koomba-kaat_1_00049
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:30661-30849	Koomba-kaat_1_00050
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:30849-31241	Koomba-kaat_1_00051
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:31244-31636	Koomba-kaat_1_00052
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:32605-33003	Koomba-kaat_1_00055
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:33011-33190	Koomba-kaat_1_00056
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:33268-33834	Koomba-kaat_1_00058
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c34813-34469	Koomba-kaat_1_00059
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c35142-34918	Koomba-kaat_1_00060
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c35497-35156	Koomba-kaat_1_00061
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c36096-35950	Koomba-kaat_1_00063
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c36411-36178	Koomba-kaat_1_00064
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c36568-36413	Koomba-kaat_1_00065
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c36955-36641	Koomba-kaat_1_00066
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c38112-37705	Koomba-kaat_1_00067
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c39221-38940	Koomba-kaat_1_00068
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c39971-39348	Koomba-kaat_1_00069
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c40389-40081	Koomba-kaat_1_00070
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c40601-40392	Koomba-kaat_1_00071
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c41393-40647	Koomba-kaat_1_00072
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c41772-41413	Koomba-kaat_1_00073
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c42655-42347	Koomba-kaat_1_00075
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c42993-42655	Koomba-kaat_1_00076
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c43466-43128	Koomba-kaat_1_00077
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c43829-43629	Koomba-kaat_1_00078
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c44069-43830	Koomba-kaat_1_00079
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c44320-44135	Koomba-kaat_1_00080
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c44787-44566	Koomba-kaat_1_00082
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c45314-44913	Koomba-kaat_1_00083
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c46014-45391	Koomba-kaat_1_00084
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c47843-47547	Koomba-kaat_1_00086
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c48179-47865	Koomba-kaat_1_00087
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c49016-48285	Koomba-kaat_1_00088
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c49434-49033	Koomba-kaat_1_00089
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c49685-49428	Koomba-kaat_1_00090
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c50391-49672	Koomba-kaat_1_00091
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c50597-50391	Koomba-kaat_1_00092
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c51154-50603	Koomba-kaat_1_00093
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c51829-51173	Koomba-kaat_1_00094
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c52346-51852	Koomba-kaat_1_00095
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c52726-52481	Koomba-kaat_1_00096
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c53043-52729	Koomba-kaat_1_00097
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c53400-53107	Koomba-kaat_1_00098
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c53697-53413	Koomba-kaat_1_00099
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c53961-53698	Koomba-kaat_1_00100
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c54231-53971	Koomba-kaat_1_00101
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c54763-54365	Koomba-kaat_1_00102
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c55434-54799	Koomba-kaat_1_00103
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c57154-56423	Koomba-kaat_1_00106
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c58381-57527	Koomba-kaat_1_00107
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c58887-58381	Koomba-kaat_1_00108
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c59629-58868	Koomba-kaat_1_00109
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c60155-59622	Koomba-kaat_1_00110
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c60557-60228	Koomba-kaat_1_00111
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c62585-61815	Koomba-kaat_1_00113
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c62839-62585	Koomba-kaat_1_00114
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c65434-65081	Koomba-kaat_1_00119
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c68151-66982	Koomba-kaat_1_00122
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c68601-68233	Koomba-kaat_1_00123
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c69099-68617	Koomba-kaat_1_00124
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c75630-75028	Koomba-kaat_1_00129
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c76468-76142	Koomba-kaat_1_00131
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c81559-81098	Koomba-kaat_1_00135
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c81867-81559	Koomba-kaat_1_00136
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c85805-85539	Koomba-kaat_1_00140
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c87845-87597	Koomba-kaat_1_00143
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c88789-88544	Koomba-kaat_1_00146
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c89116-88859	Koomba-kaat_1_00147
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c98043-97873	Koomba-kaat_1_00155
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c101553-98095	Koomba-kaat_1_00156
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c107197-106676	Koomba-kaat_1_00161
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c114814-113990	Koomba-kaat_1_00166
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c121112-120663	Koomba-kaat_1_00172
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c121294-121151	Koomba-kaat_1_00173
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c125774-125568	Koomba-kaat_1_00177
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c126610-125774	Koomba-kaat_1_00178
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c127249-126629	Koomba-kaat_1_00179
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c129293-129060	Koomba-kaat_1_00182
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c131821-130871	Koomba-kaat_1_00184
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:CDS	hypothetical protein	Koomba-kaat_1_1:c135196-134837	Koomba-kaat_1_00188
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::1 comment descriptors were found (all same)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_1:Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::7 protein sequences are shorter than 50 aa.
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00008 (length 32)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00040 (length 46)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00057 (length 33)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00062 (length 48)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00063 (length 48)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00145 (length 36)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00173 (length 47)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::1 bioseqs are missing GenomeAssembly structured comments
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_1 (length 135469)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::1 molecule types are not set as mRNA.
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_1 (length 135469)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::1 technique are not set as TSA
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_1 (length 135469)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::1 sequences do not include structured comments.
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_1 (length 135469)
+
+DiscRep_ALL:MISSING_PROJECT::189 sequences do not include project.
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_1 (length 135469)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00001 (length 77)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00002 (length 159)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00003 (length 58)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00004 (length 266)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00005 (length 53)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00006 (length 306)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00007 (length 397)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00008 (length 32)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00009 (length 55)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00010 (length 122)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00011 (length 137)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00012 (length 93)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00013 (length 128)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00014 (length 110)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00015 (length 110)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00016 (length 71)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00017 (length 71)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00018 (length 62)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00019 (length 166)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00020 (length 305)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00021 (length 252)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00022 (length 73)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00023 (length 71)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00024 (length 212)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00025 (length 62)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00026 (length 141)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00027 (length 87)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00028 (length 200)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00029 (length 132)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00030 (length 766)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00031 (length 197)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00032 (length 207)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00033 (length 57)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00034 (length 87)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00035 (length 679)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00036 (length 53)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00037 (length 61)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00038 (length 138)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00039 (length 107)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00040 (length 46)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00041 (length 59)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00042 (length 1072)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00043 (length 120)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00044 (length 261)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00045 (length 74)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00046 (length 130)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00047 (length 186)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00048 (length 176)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00049 (length 134)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00050 (length 62)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00051 (length 130)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00052 (length 130)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00053 (length 127)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00054 (length 173)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00055 (length 132)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00056 (length 59)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00057 (length 33)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00058 (length 188)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00059 (length 114)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00060 (length 74)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00061 (length 113)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00062 (length 48)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00063 (length 48)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00064 (length 77)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00065 (length 51)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00066 (length 104)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00067 (length 135)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00068 (length 93)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00069 (length 207)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00070 (length 102)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00071 (length 69)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00072 (length 248)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00073 (length 119)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00074 (length 133)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00075 (length 102)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00076 (length 112)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00077 (length 112)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00078 (length 66)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00079 (length 79)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00080 (length 61)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00081 (length 68)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00082 (length 73)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00083 (length 133)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00084 (length 207)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00085 (length 181)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00086 (length 98)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00087 (length 104)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00088 (length 243)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00089 (length 133)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00090 (length 85)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00091 (length 239)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00092 (length 68)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00093 (length 183)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00094 (length 218)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00095 (length 164)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00096 (length 81)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00097 (length 104)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00098 (length 97)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00099 (length 94)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00100 (length 87)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00101 (length 86)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00102 (length 132)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00103 (length 211)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00104 (length 145)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00105 (length 152)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00106 (length 243)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00107 (length 284)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00108 (length 168)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00109 (length 253)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00110 (length 177)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00111 (length 109)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00112 (length 417)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00113 (length 256)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00114 (length 84)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00115 (length 70)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00116 (length 170)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00117 (length 249)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00118 (length 219)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00119 (length 117)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00120 (length 341)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00121 (length 77)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00122 (length 389)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00123 (length 122)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00124 (length 160)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00125 (length 218)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00126 (length 214)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00127 (length 1249)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00128 (length 100)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00129 (length 200)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00130 (length 106)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00131 (length 108)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00132 (length 883)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00133 (length 445)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00134 (length 202)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00135 (length 153)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00136 (length 102)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00137 (length 358)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00138 (length 197)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00139 (length 644)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00140 (length 88)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00141 (length 343)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00142 (length 229)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00143 (length 82)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00144 (length 158)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00145 (length 36)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00146 (length 81)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00147 (length 85)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00148 (length 479)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00149 (length 528)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00150 (length 437)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00151 (length 151)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00152 (length 454)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00153 (length 118)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00154 (length 637)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00155 (length 56)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00156 (length 1152)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00157 (length 173)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00158 (length 900)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00159 (length 348)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00160 (length 234)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00161 (length 173)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00162 (length 283)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00163 (length 818)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00164 (length 296)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00165 (length 810)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00166 (length 274)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00167 (length 289)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00168 (length 997)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00169 (length 147)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00170 (length 138)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00171 (length 102)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00172 (length 149)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00173 (length 47)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00174 (length 328)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00175 (length 119)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00176 (length 586)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00177 (length 68)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00178 (length 278)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00179 (length 206)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00180 (length 291)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00181 (length 302)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00182 (length 77)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00183 (length 463)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00184 (length 316)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00185 (length 257)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00186 (length 561)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00187 (length 121)
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_00188 (length 119)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::1 Molinfos are missing field technique
+/lab/output/Koomba-kaat_1/Koomba-kaat_1_raw/Koomba-kaat_1:Prokka:Koomba-kaat_1_1 (length 135469)
+
