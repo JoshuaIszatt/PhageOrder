@@ -10,7 +10,7 @@ Unordered genomes are very likely to lead people to beleive that genomes are les
 The image below depicts three publicly available Pseudomonas genomes:
 ![Unordered genomes](example_images/pseud_unordered.png)
 
-This next image are the same three genomes, but reordered so they begin with the terminase subunits.
+This next image are the same three genomes, but reordered so they begin with the terminase subunits on the forward coding strand.
 ![Ordered genomes](example_images/pseud_ordered.png)
 
 Image details:
