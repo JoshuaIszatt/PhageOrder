@@ -2,7 +2,10 @@
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://pypi.org/project/PhageOrder/)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/iszatt/phageorder/general)
 
-The python script (phage_order.py) will run a docker container to reorder and annotate phage genomes.
+* The python script (phage-order.py) will run a docker container to reorder and annotate phage genomes.
+* It takes 
+* The input directory must contain fasta formatted sequences with the file extension '.fasta', everything else will be ignored.
+* A log file is produced of each run. An example of this can be seen ![here](example_output/docker_log.tsv): 
 
 This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. However, assembly is random (more information on this elsewhere...) and reordering genomes is not such a trivial task. Especially when many genomes are compared to one another using visual metrics. 
 
@@ -29,23 +32,28 @@ If there is neither, or more than 1 of both, then the genome will be left alone.
 This container will not change your RAW files. 
 
 ## Open source citation:
+If you use this software please cite below and look at the third party software to cite the correct Prokka and the PHROGS database this container uses.
 ```
 Iszatt J.(2023).PhageOrder(v0.0.2)[Source code].Github:https://github.com/JoshuaIszatt/PhageOrder
 ```
 
-## Install
-The easiest way to install the script is using pip.
+## Installation
+Install using pip
 ```sh
 pip install PhageOrder==0.0.2
 ```
 
-## Usage:
-After installing via pip:
+Run the command directly 
 ```sh
 phage-order.py --input <INPUT DIR> --output <OUTPUT DIR>
 ```
 
-Direct method
+## Run the docker container directly
+```sh
+docker pull iszatt/phageorder:0.0.2
+```
+
+Run the docker image using:
 ```sh
 docker run -v <PATH TO INPUT DIRECTORY>:/lab/input -v <PATH TO OUTPUT DIRECTORY>:/lab/output iszatt/phageorder:0.0.2 /lab/bin/annotate.sh
 ```
