@@ -1,5 +1,6 @@
 # PhageOrder v0.0.2
-[![pip: v0.0.2]](https://pypi.org/project/PhageOrder/)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 The python script (phage_order.py) will run a docker container to reorder and annotate phage genomes.
 
