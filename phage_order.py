@@ -17,8 +17,7 @@ prompts = [
     "A single strand of spaghetti is called a spaghetto",
     "I (J.Iszatt) made lab.py to make it easier for people to reorder their genomes AND obtain annotations using the PHROGs database",
     "Annotation is performed using prokka, software developed by Torsten Seemann: https://github.com/tseemann ",
-    "The Prokaryotic Virus Remote Homologous Groups database (PHROGS) contains 38,880 protein orthologous groups (868,340 proteins).\nPlease cite: https://doi.org/10.1093/nargab/lqab067 for this",
-    ""
+    "The Prokaryotic Virus Remote Homologous Groups database (PHROGS) contains 38,880 protein orthologous groups (868,340 proteins).\nPlease cite: https://doi.org/10.1093/nargab/lqab067 for this"
 ]
 random_prompt = random.choice(prompts)
 

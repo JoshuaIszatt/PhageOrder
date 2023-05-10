@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+PhageOrder/__init__.py
+PhageOrder/main.py
+PhageOrder/run.py
+PhageOrder.egg-info/PKG-INFO
+PhageOrder.egg-info/SOURCES.txt
+PhageOrder.egg-info/dependency_links.txt
+PhageOrder.egg-info/entry_points.txt
+PhageOrder.egg-info/top_level.txt
