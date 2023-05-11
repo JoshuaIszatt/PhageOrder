@@ -247,6 +247,11 @@ for file in files:
     genome = file
     subunit = subunit_decision(small, large)
     
+    # Checking subunit 
+    if subunit == None:
+        logfile("Error catch", f"Moving to next genome")
+        continue
+    
     # Reordering
     subunit_strand = subunit[0].strand
     if subunit_strand == '-':
