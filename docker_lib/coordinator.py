@@ -53,12 +53,9 @@ def check_filepath(filepath, create=False):
         if create:
             try:
                 os.makedirs(filepath)
-                print(f"Creating directory: {filepath}")
             except:
-                print(f"Failed to create directory: {filepath}")
                 sys.exit(1)
         else:
-            print(f"Cannot find {filepath}")
             sys.exit(1)
 
 # Annotation
@@ -133,16 +130,18 @@ def scan_records(file):
     return annotations
 
 def isolate_subunits(annotations):
+    if len(annotations) == 0:
+        return None
     small = []
     large = []
     for A in annotations:
-        print(f"{A.id}\t{A.strand}\t{A.product}")
         
         if A.product == 'terminase small subunit':
             small.append(A)
             
         if A.product == 'terminase large subunit':
             large.append(A)
+            
     return small, large
 
 def subunit_decision(small, large):        
@@ -158,7 +157,7 @@ def subunit_decision(small, large):
                 logfile("Subunit decision", f"{name}: Too many subunits")
                 return None
             else:
-                if small.empty and large.empty:
+                if len(small) == 0 and len(large) == 0:
                     logfile("Subunit decision", f"{name}: No subunits found")
                     return None
                 else:
@@ -209,7 +208,8 @@ for fasta in os.listdir(input):
         logfile("File scan", f"Skipping file: {fasta}")
 
 # Running first prokka pass
-print(files)
+if len(files) == 0:
+    sys.exit("No genomes with .fasta extension found")
 
 for file in files:
     
@@ -270,7 +270,6 @@ for file in files:
     # Obtaining start of the subunit
     if not len(subunit) == 1:
         logfile("ERROR", f"{name}")
-        print("ERROR")
         continue
         
     print(f"Reordering based on {subunit[0].id}")
@@ -314,11 +313,9 @@ for file in files:
         
         # Adding from tsv
         for index, row in df.iterrows():
-            print(A.id)
             if A.id == row['locus_tag']:
                 phrog = row['EC_number']
                 length = row['length_bp']
-                print(phrog, length, sep='\t')
                 break
     
         # Adding category from index
@@ -375,11 +372,9 @@ for file in files:
         
         # Adding from tsv
         for index, row in df.iterrows():
-            print(A.id)
             if A.id == row['locus_tag']:
                 phrog = row['EC_number']
                 length = row['length_bp']
-                print(phrog, length, sep='\t')
                 break
     
         # Adding category from index
