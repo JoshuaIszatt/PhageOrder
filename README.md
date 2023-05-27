@@ -31,10 +31,10 @@ To increase the number of ordered phages in public repositories, and make compar
 If there is neither, or more than 1 of both, then the genome will be left alone.
 This container will not change your RAW files. 
 
-## Open source citation:
+## Citation:
 If you use this software please cite below and look at the third party software to cite the correct Prokka and the PHROGS database this container uses.
 ```
-Iszatt J.(2023).PhageOrder(v0.0.2)[Source code].Github:https://github.com/JoshuaIszatt/PhageOrder
+PENDING
 ```
 
 ## Installation
