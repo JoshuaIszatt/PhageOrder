@@ -68,7 +68,7 @@ docker run -v <PATH TO INPUT DIRECTORY>:/lab/input -v <PATH TO OUTPUT DIRECTORY>
 | Software | Version | Description | Please cite |
 | -------- | -------- | -------- | -------- |
 | prokka | 1.14.6 | Annotation software designed by Torsten Seemann | https://doi.org/10.1093/bioinformatics/btu153 |
-| PHROGS database | - | Database of proteins organised into orthologous groups | https://academic.oup.com/nargab/article/3/3/lqab067/6342220 |
+| PHROGS database | 1st May access | Database of proteins organised into orthologous groups | https://academic.oup.com/nargab/article/3/3/lqab067/6342220 |
 | Biopython | 1.79 | A set of tools written in python for biological computation | https://biopython.org/ |
 
 ## Docker tags
