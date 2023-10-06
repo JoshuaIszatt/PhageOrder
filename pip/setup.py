@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="PhageOrder",
-    version="0.0.3",
+    version="0.0.2",
     description="Python package used to reorder and annotate phage genomes.",
     url="https://github.com/JoshuaIszatt",
     author="Joshua Iszatt",
