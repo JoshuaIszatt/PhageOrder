@@ -1,4 +1,4 @@
-# PhageOrder v0.0.2
+# PhageOrder v0.0.3
 The python script (phage_order.py) will run a docker container to reorder and annotate phage genomes.
 
 This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. However, assembly is random (more information on this elsewhere...) and reordering genomes is not such a trivial task. Especially when many genomes are compared to one another using visual metrics. 
@@ -27,7 +27,7 @@ This container will not change your RAW files.
 
 ## Open source citation:
 ```
-Iszatt J.(2023).PhageOrder(v0.0.2)[Source code].Github:https://github.com/JoshuaIszatt/PhageOrder
+Iszatt J.(2023).PhageOrder(v0.0.3)[Source code].Github:https://github.com/JoshuaIszatt/PhageOrder
 ```
 
 ## Usage:
