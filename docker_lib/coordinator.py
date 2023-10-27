@@ -404,4 +404,10 @@ for file in files:
         
         append_csv(csv_file, data)
     logfile("Protein file (raw) creation", f"{name} complete")
+    
+# Creating summary file with genome length, number of CDS, tRNAs, hypothetical proteins, and coding capacity
+    
+    
+    
+    
 logfile("FINISH", f"END SCRIPT")     
