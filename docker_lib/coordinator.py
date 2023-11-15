@@ -14,7 +14,7 @@ import csv
 input = '/lab/input'
 output = '/lab/output'
 index = '/lab/database/PHROG_index.csv'
-logs = '/lab/output/docker_log.tsv'
+logs = '/lab/output/phageorder_log.tsv'
 
 # Reading index file
 df2 = pd.read_csv(index)
@@ -39,7 +39,7 @@ if not os.path.exists(logs):
 # Logging function
 def logfile(function, text):
     newline = '\n'
-    container = "PhageOrder v0.0.2"
+    container = "PhageOrder v0.0.3"
     date_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     report = f"{newline}[{container}]\t[{date_time}]\t[{function}]\t[{text}]"
     with open(logs, 'a') as file:
@@ -300,7 +300,7 @@ for file in files:
     df = df.reset_index(drop=True)
     
     # Creating CSV
-    csv_file = f"{outdir}/{name}_proteins.csv"
+    csv_file = os.path.join(outdir, f"{name}_reordered", f"{name}_proteins.csv")
     headers = [[
         'locus_tag',
         'length_bp',
@@ -359,7 +359,7 @@ for file in files:
     df = df.reset_index(drop=True)
     
     # Creating CSV
-    csv_file = f"{outdir}/raw_{name}_proteins.csv"
+    csv_file = os.path.join(outdir, f"{name}_raw", f"{name}_proteins.csv")
     headers = [[
         'locus_tag',
         'length_bp',
@@ -371,7 +371,7 @@ for file in files:
         'strand'
         ]]
     create_csv(csv_file, headers)
-        
+    
     # Looping through features for reordered genome
     for A in annotations:
         
@@ -405,9 +405,9 @@ for file in files:
         append_csv(csv_file, data)
     logfile("Protein file (raw) creation", f"{name} complete")
     
-# Creating summary file with genome length, number of CDS, tRNAs, hypothetical proteins, and coding capacity
+# Creating summary files with genome length, number of CDS, tRNAs, hypothetical proteins, and coding capacity
+reordered_summary = os.path.join(outdir, "reordered_summary.csv")
+raw_summary = os.path.join(outdir, "raw_summary.csv")
     
-    
-    
-    
+
 logfile("FINISH", f"END SCRIPT")     
