@@ -408,6 +408,7 @@ for file in files:
 # Creating summary files with genome length, number of CDS, tRNAs, hypothetical proteins, and coding capacity
 reordered_summary = os.path.join(outdir, "reordered_summary.csv")
 raw_summary = os.path.join(outdir, "raw_summary.csv")
-    
+
+
 
 logfile("FINISH", f"END SCRIPT")     
