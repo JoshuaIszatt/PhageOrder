@@ -1,10 +1,14 @@
 Metadata-Version: 2.1
 Name: PhageOrder
-Version: 0.0.2
+Version: 0.0.3
 Summary: Python package used to reorder and annotate phage genomes.
 Home-page: https://github.com/JoshuaIszatt
 Author: Joshua Iszatt
 Author-email: joshiszatt@gmail.com
 License: AGPL-3.0
+Platform: UNKNOWN
 Requires-Python: >3
 License-File: LICENSE.md
+
+UNKNOWN
+
