@@ -191,7 +191,7 @@ def append_csv(filename, data):
         writer = csv.writer(csvfile)
         writer.writerow(data)
 
-# Checking the filepaths
+# Checking filepaths
 logfile("Validation", "Checking input files")
 check_filepath(input)
 check_filepath(output)
@@ -406,7 +406,7 @@ for file in files:
     logfile("Protein file (raw) creation", f"{name} complete")
     
 # Creating summary file with genome length, number of CDS, tRNAs, hypothetical proteins, and coding capacity
-    
+
     
     
     
