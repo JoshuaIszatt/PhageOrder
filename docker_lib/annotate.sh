@@ -17,14 +17,14 @@ if (($SECONDS > 3600)); then
     let "hours=SECONDS/3600"
     let "minutes=(SECONDS%3600)/60"
     let "seconds=(SECONDS%3600)%60"
-    echo " " >>/lab/output/docker_log.tsv
-    echo "[hours:$hours,minutes:$minutes,seconds:$seconds]" >>/lab/output/docker_log.tsv
+    echo " " >>/lab/output/phageorder_log.tsv
+    echo "[hours:$hours,minutes:$minutes,seconds:$seconds]" >>/lab/output/phageorder_log.tsv
 elif (($SECONDS > 60)); then
     let "minutes=(SECONDS%3600)/60"
     let "seconds=(SECONDS%3600)%60"
-    echo " " >>/lab/output/docker_log.tsv
-    echo "[minutes:$minutes,seconds:$seconds]" >>/lab/output/docker_log.tsv
+    echo " " >>/lab/output/phageorder_log.tsv
+    echo "[minutes:$minutes,seconds:$seconds]" >>/lab/output/phageorder_log.tsv
 else
-    echo " " >>/lab/output/docker_log.tsv
-    echo "[seconds:$SECONDS]" >>/lab/output/docker_log.tsv
+    echo " " >>/lab/output/phageorder_log.tsv
+    echo "[seconds:$SECONDS]" >>/lab/output/phageorder_log.tsv
 fi
