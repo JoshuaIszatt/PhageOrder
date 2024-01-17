@@ -211,11 +211,16 @@ for fasta in os.listdir(input):
 if len(files) == 0:
     sys.exit("No genomes with .fasta extension found")
 
+# Setting protein files lists
+reordered_protein_files = []
+raw_protein_files = []
+
 for file in files:
     
     # Assigning base file names
     name = os.path.basename(file)[:-6]
-    outdir = f"{output}/{name}"
+    outdir = os.path.join(output, 'raw_data', name)
+    # outdir = f"{output}/{name}" ### Remove if acceptable
     
     # Checking if it already exists
     if os.path.exists(outdir):
@@ -299,8 +304,9 @@ for file in files:
     df = df.drop(df[df['ftype'] == 'gene'].index)
     df = df.reset_index(drop=True)
     
-    # Creating CSV
+    # Creating CSV (and list)
     csv_file = os.path.join(outdir, f"{name}_reordered", f"{name}_proteins.csv")
+    reordered_protein_files.append(csv_file)
     headers = [[
         'locus_tag',
         'length_bp',
@@ -359,7 +365,9 @@ for file in files:
     df = df.reset_index(drop=True)
     
     # Creating CSV
+    raw_protein_files = []
     csv_file = os.path.join(outdir, f"{name}_raw", f"{name}_proteins.csv")
+    raw_protein_files.append(csv_file)
     headers = [[
         'locus_tag',
         'length_bp',
@@ -372,7 +380,7 @@ for file in files:
         ]]
     create_csv(csv_file, headers)
     
-    # Looping through features for reordered genome
+    # Looping through features for raw genome
     for A in annotations:
         
         # Adding from tsv
@@ -404,11 +412,31 @@ for file in files:
         
         append_csv(csv_file, data)
     logfile("Protein file (raw) creation", f"{name} complete")
-    
+
 # Creating summary files with genome length, number of CDS, tRNAs, hypothetical proteins, and coding capacity
-reordered_summary = os.path.join(outdir, "reordered_summary.csv")
-raw_summary = os.path.join(outdir, "raw_summary.csv")
+reordered_summary = os.path.join(output, "reordered_summary.csv")
+reorder_count = 0
+dfs = []
+for file in reordered_protein_files:
+    if os.path.exists(file):
+        df = pd.read_csv(file)
+        dfs.append(df)
+        reorder_count = reorder_count + 1
+        
 
+df = pd.concat(dfs)
+df.to_csv(reordered_summary, index=False)
 
+raw_summary = os.path.join(output, "raw_summary.csv")
+raw_count = 0
+dfs = []
+for file in raw_protein_files:
+    if os.path.exists(file):
+        df = pd.read_csv(file)
+        dfs.append(df)
+        raw_count = raw_count + 1
 
-logfile("FINISH", f"END SCRIPT")     
+df = pd.concat(dfs)
+df.to_csv(raw_summary, index=False)
+
+logfile("Summary", f"Raw: {raw_count}, Reordered: {reorder_count}")
