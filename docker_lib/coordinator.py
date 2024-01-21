@@ -9,6 +9,7 @@ import subprocess
 import pandas as pd
 from Bio import SeqIO
 import csv
+import tarfile
 
 # Reading input directory
 input = '/lab/input'
@@ -191,6 +192,10 @@ def append_csv(filename, data):
         writer = csv.writer(csvfile)
         writer.writerow(data)
 
+def make_tarfile(output_filename, source_dir):
+    with tarfile.open(output_filename, "w:gz") as tar:
+        tar.add(source_dir, arcname=os.path.basename(source_dir))
+
 # Checking filepaths
 logfile("Validation", "Checking input files")
 check_filepath(input)
@@ -219,8 +224,7 @@ for file in files:
     
     # Assigning base file names
     name = os.path.basename(file)[:-6]
-    outdir = os.path.join(output, 'raw_data', name)
-    # outdir = f"{output}/{name}" ### Remove if acceptable
+    outdir = os.path.join(output, 'data', name)
     
     # Checking if it already exists
     if os.path.exists(outdir):
@@ -365,7 +369,6 @@ for file in files:
     df = df.reset_index(drop=True)
     
     # Creating CSV
-    raw_protein_files = []
     csv_file = os.path.join(outdir, f"{name}_raw", f"{name}_proteins.csv")
     raw_protein_files.append(csv_file)
     headers = [[
@@ -440,3 +443,7 @@ df = pd.concat(dfs)
 df.to_csv(raw_summary, index=False)
 
 logfile("Summary", f"Raw: {raw_count}, Reordered: {reorder_count}")
+
+# Create zip file (if specified)
+source = os.path.join(output, 'data')
+file = os.path.join(output, 'data.tar.gz')
