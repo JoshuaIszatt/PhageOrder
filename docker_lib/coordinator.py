@@ -40,7 +40,7 @@ if not os.path.exists(logs):
 # Logging function
 def logfile(function, text):
     newline = '\n'
-    container = "PhageOrder v0.0.3"
+    container = "PhageOrder v0.0.4"
     date_time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     report = f"{newline}[{container}]\t[{date_time}]\t[{function}]\t[{text}]"
     with open(logs, 'a') as file:
@@ -181,7 +181,30 @@ def reorder_genome(start, file, output):
     str_final = '>'+contig_record.id + '\n' + str1 + str2
     with open(output, "w") as out:
         out.write(str_final)
-        
+
+def reorder_genome2(start, file, output):
+    starter = int(start)-1
+    print(starter, 'should be 1 less than', start)
+    for contig_record in SeqIO.parse(open(file), 'fasta'):
+        contig = str(contig_record.seq)
+        contig_id = contig_record.id
+    
+    # Reordering
+    str1 = contig[starter:]
+    str2 = contig[:starter]
+    reordered_sequence = str1 + str2
+
+    # Creating record
+    from Bio.Seq import Seq
+    record = SeqRecord(seq=Seq(reordered_sequence), 
+                       id=contig_id, 
+                       name=contig_id, 
+                       description='reordered_genome', dbxrefs=[])
+
+    # Changing this to be fasta formatted
+    with open(output, "w") as out:
+        SeqIO.write(record, out, 'fasta')
+
 def create_csv(filename, data):
     with open(filename, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile)
@@ -292,7 +315,7 @@ for file in files:
     # Reordering
     logfile("Reordering", f"{name}")
     reordered_genome = f"{outdir}/{name}_reordered.fasta"
-    reorder_genome(subunit[0].start, genome, reordered_genome)
+    reorder_genome2(subunit[0].start, genome, reordered_genome)
     
     # Final annotation:
     annotate(reordered_genome, prokka_dir3, name)

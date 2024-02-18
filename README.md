@@ -1,4 +1,4 @@
-# PhageOrder v0.0.3
+# PhageOrder v0.0.4
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://pypi.org/project/PhageOrder/)
 [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/iszatt/phageorder/general)
 
@@ -40,7 +40,7 @@ PENDING
 ## Installation
 Install using pip
 ```sh
-pip install PhageOrder==0.0.3
+pip install PhageOrder==0.0.4
 ```
 
 Run the command directly 
@@ -50,12 +50,12 @@ phage-order.py --input <INPUT DIR> --output <OUTPUT DIR>
 
 ## Run the docker container directly
 ```sh
-docker pull iszatt/phageorder:0.0.3
+docker pull iszatt/phageorder:0.0.4
 ```
 
 Run the docker image using:
 ```sh
-docker run -v <PATH TO INPUT DIRECTORY>:/lab/input -v <PATH TO OUTPUT DIRECTORY>:/lab/output iszatt/phageorder:0.0.3 /lab/bin/annotate.sh
+docker run -v <PATH TO INPUT DIRECTORY>:/lab/input -v <PATH TO OUTPUT DIRECTORY>:/lab/output iszatt/phageorder:0.0.4 /lab/bin/annotate.sh
 ```
 
 ## Output
