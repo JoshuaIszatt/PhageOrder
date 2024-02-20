@@ -31,17 +31,23 @@ def main():
         return dir_path
 
     # Parsing arguments
-    image = 'iszatt/phageorder:0.0.3'
+    image = 'iszatt/phageorder:0.0.4'
     parser = argparse.ArgumentParser(description=f"Reorder and annotate phage genomes. Joshua J Iszatt: https://github.com/JoshuaIszatt")
 
     # Input/output options
     parser.add_argument('-i', '--input', type=valid_dir, 
-                        required=True, help='Input fasta files')
+                        help='Input fasta files')
     parser.add_argument('-o', '--output', type=valid_dir, 
-                        required=True, help='Direct output to this location')
+                        help='Direct output to this location')
+    parser.add_argument('-v', '--version', action="store_true", 
+                        help='Print the docker image version')
     parser.add_argument('--manual', action="store_true", 
                         help='Enter container interactively')
     args = parser.parse_args()
+
+    if args.version:
+        print(f"{image}")
+        sys.exit()
 
     # Obtaining absolute paths
     input_path = os.path.abspath(args.input)
