@@ -8,6 +8,8 @@ import datetime
 import subprocess
 import pandas as pd
 from Bio import SeqIO
+from Bio import SeqRecord
+from Bio import Seq
 import csv
 import tarfile
 
@@ -71,7 +73,7 @@ def annotate(genome, output, phage_name):
         '--kingdom', 'Viruses',
         '--gcode', '11',
         '--locustag', phage_name,
-        '--prefix', f"{phage_name}",
+        '--prefix', phage_name,
         '--compliant'
     ]
     # run the prokka command using subprocess
@@ -195,7 +197,6 @@ def reorder_genome2(start, file, output):
     reordered_sequence = str1 + str2
 
     # Creating record
-    from Bio.Seq import Seq
     record = SeqRecord(seq=Seq(reordered_sequence), 
                        id=contig_id, 
                        name=contig_id, 

@@ -27,10 +27,15 @@ RUN echo 'export PATH="/lab/bin:$PATH"' >> ~/.bashrc
 
 # Setting up PHROGs database
 WORKDIR /lab/build
-RUN wget http://warwick.s3.climb.ac.uk/ADM_share/all_phrogs.hmm.gz \
-    && gunzip all_phrogs.hmm.gz \
+COPY ./database/all_phrogs.hmm.gz /lab/build/ 
+RUN gunzip all_phrogs.hmm.gz \
     && mv all_phrogs.hmm /opt/conda/envs/lab/db/hmm \
     && rm /opt/conda/envs/lab/db/hmm/*hmm.h*
+
+#RUN wget http://warwick.s3.climb.ac.uk/ADM_share/all_phrogs.hmm.gz \
+#    && gunzip all_phrogs.hmm.gz \
+#    && mv all_phrogs.hmm /opt/conda/envs/lab/db/hmm \
+#    && rm /opt/conda/envs/lab/db/hmm/*hmm.h*
 
 # Copying index over
 COPY ./database/PHROG_index.csv /lab/database/

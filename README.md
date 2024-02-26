@@ -7,9 +7,9 @@
 * The input directory must contain fasta formatted sequences with the file extension '.fasta', everything else will be ignored.
 * A log file is produced of each run.
 
-This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. However, assembly is random (more information on this elsewhere...) and reordering genomes is not such a trivial task. Especially when many genomes are compared to one another using visual metrics. 
+This is useful to compare multiple genomes, which are often uploaded 'as is' once the assembly has been complete. However, assembly is random (more information on this elsewhere...) and reordering genomes also requires re annotation which is annoying. Especially when many genomes are compared to one another using visual metrics. 
 
-Disordered genomes are very likely to lead people to beleive that genomes are less related than they actually are.
+Disordered genomes are likely to lead people to beleive that genomes are less related than they actually are.
 
 **As an example:** 
 
@@ -68,7 +68,7 @@ docker run -v <PATH TO INPUT DIRECTORY>:/lab/input -v <PATH TO OUTPUT DIRECTORY>
 | Software | Version | Description | Please cite |
 | -------- | -------- | -------- | -------- |
 | prokka | 1.14.6 | Annotation software designed by Torsten Seemann | https://doi.org/10.1093/bioinformatics/btu153 |
-| PHROGs database | 1st May access | Database of proteins organised into orthologous groups | https://academic.oup.com/nargab/article/3/3/lqab067/6342220 |
+| PHROGs database | V4 (Accessed 26/02/24) | Database of proteins organised into orthologous groups | https://academic.oup.com/nargab/article/3/3/lqab067/6342220 |
 | Biopython | 1.79 | A set of tools written in python for biological computation | https://biopython.org/ |
 
 ## Docker tags

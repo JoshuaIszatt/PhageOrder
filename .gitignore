@@ -1,3 +1,5 @@
 # Ignoring files
 test_in/**
 test_out/**
+phrogs/HMM_phrog.tar.gz
+database/all_phrogs.hmm.gz
